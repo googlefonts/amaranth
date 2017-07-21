@@ -14523,6 +14523,48 @@ width = 299;
 unicode = 002C;
 },
 {
+glyphname = ellipsis;
+layers = (
+{
+components = (
+{
+name = period;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 210, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 420, 0}";
+}
+);
+layerId = "5DBF9900-19CD-41BF-A30E-BB0302EA3177";
+width = 689;
+},
+{
+components = (
+{
+name = period;
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 230, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 460, 0}";
+}
+);
+layerId = "EB17B230-7FBB-41DE-BCDE-73D8D15F9114";
+width = 742;
+}
+);
+leftMetricsKey = period;
+rightMetricsKey = period;
+unicode = 2026;
+},
+{
 glyphname = exclam;
 layers = (
 {
