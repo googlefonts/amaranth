@@ -21487,6 +21487,12 @@ unicode = 0000;
 );
 instances = (
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--increase-x-height=9";
+}
+);
 interpolationWeight = 400;
 instanceInterpolations = {
 "3E88664E-E4A1-4C90-B697-57006E853054" = 1;
@@ -21495,6 +21501,12 @@ isItalic = 1;
 name = Italic;
 },
 {
+customParameters = (
+{
+name = "TTFAutohint options";
+value = "--increase-x-height=9";
+}
+);
 interpolationWeight = 700;
 instanceInterpolations = {
 "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E" = 1;
