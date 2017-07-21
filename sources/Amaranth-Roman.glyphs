@@ -1,65 +1,10 @@
 {
 .appVersion = "1043";
-copyright = "Copyright (c) 2011 by Gesine Todt. All rights reserved.";
+copyright = "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)";
 customParameters = (
 {
 name = fsType;
 value = (
-);
-},
-{
-name = vendorID;
-value = "";
-},
-{
-name = description;
-value = "Copyright (c) 2011 by . All rights reserved.";
-},
-{
-name = macintoshFONDFamilyID;
-value = 128;
-},
-{
-name = openTypeHeadLowestRecPPEM;
-value = 9;
-},
-{
-name = openTypeNameCompatibleFullName;
-value = "Amaranth Regular";
-},
-{
-name = openTypeNameUniqueID;
-value = "GesineTodt: Amaranth Regular: 2011";
-},
-{
-name = openTypeNameVersion;
-value = "Version 1.000";
-},
-{
-name = openTypeOS2CodePageRanges;
-value = (
-);
-},
-{
-name = openTypeOS2FamilyClass;
-value = (
-0,
-0
-);
-},
-{
-name = openTypeOS2Panose;
-value = (
-2,
-0,
-5,
-3,
-5,
-0,
-0,
-2,
-0,
-4
 );
 },
 {
@@ -103,61 +48,8 @@ name = openTypeOS2SuperscriptYSize;
 value = 650;
 },
 {
-name = openTypeOS2UnicodeRanges;
-value = (
-0,
-1,
-2,
-5,
-31,
-32,
-33,
-38
-);
-},
-{
-name = postscriptBlueFuzz;
-value = 1;
-},
-{
-name = postscriptBlueScale;
-value = 0.0396;
-},
-{
-name = postscriptBlueShift;
-value = 7;
-},
-{
-name = postscriptDefaultWidthX;
-value = 500;
-},
-{
-name = postscriptForceBold;
-value = 0;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = postscriptSlantAngle;
-value = 0;
-},
-{
-name = postscriptUniqueID;
-value = -1;
-},
-{
-name = postscriptWindowsCharacterSet;
-value = 1;
-},
-{
 name = trademark;
 value = "Amaranth Regular is a trademark of Gesine Todt.";
-},
-{
-name = year;
-value = 2011;
 },
 {
 name = "Use Typo Metrics";
@@ -23799,6 +23691,7 @@ slash = -10;
 };
 };
 manufacturer = "Gesine Todt";
+manufacturerURL = "http://www.gesine-todt.de";
 unitsPerEm = 1000;
 userData = {
 UFOFormat = 2;
