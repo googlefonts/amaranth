@@ -1,0 +1,4 @@
+Amaranth-Bold.ttf: Version 1.000
+Amaranth-BoldItalic.ttf: Version 1.000
+Amaranth-Italic.ttf: Version 1.000
+Amaranth-Regular.ttf: Version 1.000
