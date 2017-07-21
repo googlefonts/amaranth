@@ -1,8 +1,5 @@
 {
 .appVersion = "1043";
-DisplayStrings = (
-"ll/ellipsis ll"
-);
 copyright = "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)";
 customParameters = (
 {
@@ -157,30 +154,6 @@ ascender = 720;
 capHeight = 669;
 customParameters = (
 {
-name = typoAscender;
-value = 750;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
-name = typoLineGap;
-value = 200;
-},
-{
-name = hheaAscender;
-value = 750;
-},
-{
-name = hheaDescender;
-value = -250;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
 name = winAscent;
 value = 976;
 },
@@ -195,6 +168,30 @@ value = 50;
 {
 name = underlinePosition;
 value = -100;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -236;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 976;
+},
+{
+name = hheaDescender;
+value = -236;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -214;
@@ -227,30 +224,6 @@ ascender = 720;
 capHeight = 669;
 customParameters = (
 {
-name = typoAscender;
-value = 750;
-},
-{
-name = typoDescender;
-value = -250;
-},
-{
-name = typoLineGap;
-value = 200;
-},
-{
-name = hheaAscender;
-value = 750;
-},
-{
-name = hheaDescender;
-value = -250;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
 name = winAscent;
 value = 976;
 },
@@ -265,6 +238,30 @@ value = 50;
 {
 name = underlinePosition;
 value = -100;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -236;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 976;
+},
+{
+name = hheaDescender;
+value = -236;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -214;
