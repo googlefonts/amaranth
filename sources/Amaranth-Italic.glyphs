@@ -1,5 +1,8 @@
 {
 .appVersion = "1043";
+DisplayStrings = (
+8
+);
 copyright = "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)";
 customParameters = (
 {
@@ -21498,6 +21501,7 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "Bold Italic";
+weightClass = Bold;
 }
 );
 kerning = {

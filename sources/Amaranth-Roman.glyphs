@@ -20076,6 +20076,7 @@ instanceInterpolations = {
 "EB17B230-7FBB-41DE-BCDE-73D8D15F9114" = 1;
 };
 name = Bold;
+weightClass = Bold;
 }
 );
 kerning = {
