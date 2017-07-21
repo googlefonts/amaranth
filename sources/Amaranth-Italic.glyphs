@@ -28,14 +28,6 @@ name = openTypeNameCompatibleFullName;
 value = "Amaranth Italic";
 },
 {
-name = openTypeNameLicense;
-value = "Copyright (c) 2011 Amaranth by Gesine Todt www.gesine-todt.de. All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.";
-},
-{
-name = openTypeNameLicenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
 name = openTypeNameUniqueID;
 value = "GesineTodt: Amaranth Italic: 2011";
 },
@@ -166,6 +158,26 @@ value = "Amaranth is a trademark of Gesine Todt.";
 {
 name = year;
 value = 2011;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
 date = "2017-07-21 14:52:26 +0000";
@@ -176,7 +188,65 @@ disablesNiceNames = 1;
 familyName = Amaranth;
 featurePrefixes = (
 {
-code = "@_KERN_I_1ST = [ I' H Iacute Icircumflex Idieresis Igrave N Ntilde ];\012\012@_KERN_o_2ND = [ o' a aacute acircumflex adieresis ae agrave aring atilde c ccedilla d e eacute ecircumflex edieresis egrave g oacute ocircumflex odieresis oe ograve oslash otilde q ];\012\012@_KERN_i = [ i' dotlessi iacute icircumflex idieresis igrave ];\012\012@_KERN_hyphen = [ hyphen' emdash endash uni00AD ];\012\012@_KERN_U = [ U' Uacute Ucircumflex Udieresis Ugrave ];\012\012@_KERN_O_2ND = [ O' C Ccedilla G OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde ];\012\012@_KERN_n_2ND = [ n' m ntilde p r ];\012\012@_KERN_A = [ A' Aacute Acircumflex Adieresis Agrave Aring Atilde ];\012\012@_KERN_guilsinglright = [ guilsinglright guillemotright' ];\012\012@_KERN_e_1ST = [ e' ae eacute ecircumflex edieresis egrave oe ];\012\012@_KERN_o_1ST = [ o' b oacute ocircumflex odieresis ograve oslash otilde p thorn ];\012\012@_KERN_b_2ND = [ b' thorn ];\012\012@_KERN_quoteright = [ quoteright' quotedblright ];\012\012@_KERN_E_1ST = [ E' AE Eacute Ecircumflex Edieresis Egrave OE ];\012\012@_KERN_O_1ST = [ O' Oacute Ocircumflex Odieresis Ograve Oslash Otilde ];\012\012@_KERN_n_1ST = [ n' h m ntilde ];\012\012@_KERN_c_1ST = [ c' ccedilla ];\012\012@_KERN_D_1ST = [ D' Eth ];\012\012@_KERN_quoteleft = [ quoteleft' quotedblleft ];\012\012@_KERN_u_2ND = [ u' uacute ucircumflex udieresis ugrave v w y yacute ydieresis ];\012\012@_KERN_guilsinglleft = [ guilsinglleft guillemotleft' ];\012\012@_KERN_C_1ST = [ C' Ccedilla ];\012\012@_KERN_quotesingle = [ quotesingle' quotedbl ];\012\012@_KERN_y_1ST = [ y' yacute ydieresis ];\012\012@_KERN_a_1ST = [ a' aacute acircumflex adieresis agrave aring atilde ];\012\012@_KERN_quotesinglbase = [ quotesinglbase' quotedblbase ];\012\012@_KERN_u_1ST = [ u' uacute ucircumflex udieresis ugrave ];\012\012@_KERN_Y = [ Y' Yacute Ydieresis ];\012\012@_KERN_I_2ND = [ I' B D E Eacute Ecircumflex Edieresis Egrave Eth F H Iacute Icircumflex Idieresis Igrave K L N Ntilde P R Thorn ];\012\012@_KERN_h_2ND = [ h' k ];";
+code = "@_KERN_I_1ST = [ I' H Iacute Icircumflex Idieresis Igrave N Ntilde ];
+
+@_KERN_o_2ND = [ o' a aacute acircumflex adieresis ae agrave aring atilde c ccedilla d e eacute ecircumflex edieresis egrave g oacute ocircumflex odieresis oe ograve oslash otilde q ];
+
+@_KERN_i = [ i' dotlessi iacute icircumflex idieresis igrave ];
+
+@_KERN_hyphen = [ hyphen' emdash endash uni00AD ];
+
+@_KERN_U = [ U' Uacute Ucircumflex Udieresis Ugrave ];
+
+@_KERN_O_2ND = [ O' C Ccedilla G OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde ];
+
+@_KERN_n_2ND = [ n' m ntilde p r ];
+
+@_KERN_A = [ A' Aacute Acircumflex Adieresis Agrave Aring Atilde ];
+
+@_KERN_guilsinglright = [ guilsinglright guillemotright' ];
+
+@_KERN_e_1ST = [ e' ae eacute ecircumflex edieresis egrave oe ];
+
+@_KERN_o_1ST = [ o' b oacute ocircumflex odieresis ograve oslash otilde p thorn ];
+
+@_KERN_b_2ND = [ b' thorn ];
+
+@_KERN_quoteright = [ quoteright' quotedblright ];
+
+@_KERN_E_1ST = [ E' AE Eacute Ecircumflex Edieresis Egrave OE ];
+
+@_KERN_O_1ST = [ O' Oacute Ocircumflex Odieresis Ograve Oslash Otilde ];
+
+@_KERN_n_1ST = [ n' h m ntilde ];
+
+@_KERN_c_1ST = [ c' ccedilla ];
+
+@_KERN_D_1ST = [ D' Eth ];
+
+@_KERN_quoteleft = [ quoteleft' quotedblleft ];
+
+@_KERN_u_2ND = [ u' uacute ucircumflex udieresis ugrave v w y yacute ydieresis ];
+
+@_KERN_guilsinglleft = [ guilsinglleft guillemotleft' ];
+
+@_KERN_C_1ST = [ C' Ccedilla ];
+
+@_KERN_quotesingle = [ quotesingle' quotedbl ];
+
+@_KERN_y_1ST = [ y' yacute ydieresis ];
+
+@_KERN_a_1ST = [ a' aacute acircumflex adieresis agrave aring atilde ];
+
+@_KERN_quotesinglbase = [ quotesinglbase' quotedblbase ];
+
+@_KERN_u_1ST = [ u' uacute ucircumflex udieresis ugrave ];
+
+@_KERN_Y = [ Y' Yacute Ydieresis ];
+
+@_KERN_I_2ND = [ I' B D E Eacute Ecircumflex Edieresis Egrave Eth F H Iacute Icircumflex Idieresis Igrave K L N Ntilde P R Thorn ];
+
+@_KERN_h_2ND = [ h' k ];";
 name = Prefix;
 }
 );
@@ -217,11 +287,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 976;
 },
 {
 name = winDescent;
-value = -250;
+value = 258;
 },
 {
 name = underlineThickness;
@@ -240,6 +310,7 @@ horizontalStems = (
 91
 );
 id = "3E88664E-E4A1-4C90-B697-57006E853054";
+italicAngle = 11;
 verticalStems = (
 120,
 89,
@@ -286,11 +357,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 950;
+value = 976;
 },
 {
 name = winDescent;
-value = -250;
+value = 258;
 },
 {
 name = underlineThickness;
@@ -309,6 +380,7 @@ horizontalStems = (
 91
 );
 id = "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E";
+italicAngle = 11;
 verticalStems = (
 120,
 89,
@@ -324,7 +396,6 @@ xHeight = 490;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -407,7 +478,6 @@ unicode = 0041;
 },
 {
 glyphname = Aacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -508,7 +578,6 @@ unicode = 00C1;
 },
 {
 glyphname = Acircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -617,7 +686,6 @@ unicode = 00C2;
 },
 {
 glyphname = Adieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -756,7 +824,6 @@ unicode = 00C4;
 },
 {
 glyphname = Agrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -857,7 +924,6 @@ unicode = 00C0;
 },
 {
 glyphname = Aring;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -984,7 +1050,6 @@ unicode = 00C5;
 },
 {
 glyphname = Atilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1105,7 +1170,6 @@ unicode = 00C3;
 },
 {
 glyphname = AE;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1191,7 +1255,6 @@ unicode = 00C6;
 },
 {
 glyphname = B;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1323,7 +1386,6 @@ unicode = 0042;
 },
 {
 glyphname = C;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -1418,7 +1480,6 @@ unicode = 0043;
 },
 {
 glyphname = Ccedilla;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1551,7 +1612,6 @@ unicode = 00C7;
 },
 {
 glyphname = D;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1644,7 +1704,6 @@ unicode = 0044;
 },
 {
 glyphname = Eth;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1753,7 +1812,6 @@ unicode = 00D0;
 },
 {
 glyphname = E;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -1820,7 +1878,6 @@ unicode = 0045;
 },
 {
 glyphname = Eacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1905,7 +1962,6 @@ unicode = 00C9;
 },
 {
 glyphname = Ecircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -1998,7 +2054,6 @@ unicode = 00CA;
 },
 {
 glyphname = Edieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2121,7 +2176,6 @@ unicode = 00CB;
 },
 {
 glyphname = Egrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2206,7 +2260,6 @@ unicode = 00C8;
 },
 {
 glyphname = F;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2256,7 +2309,6 @@ unicode = 0046;
 },
 {
 glyphname = G;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2370,7 +2422,6 @@ unicode = 0047;
 },
 {
 glyphname = H;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2425,7 +2476,6 @@ unicode = 0048;
 },
 {
 glyphname = I;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -2476,7 +2526,6 @@ unicode = 0049;
 },
 {
 glyphname = Iacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2545,7 +2594,6 @@ unicode = 00CD;
 },
 {
 glyphname = Icircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2622,7 +2670,6 @@ unicode = 00CE;
 },
 {
 glyphname = Idieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2729,7 +2776,6 @@ unicode = 00CF;
 },
 {
 glyphname = Igrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2798,7 +2844,6 @@ unicode = 00CC;
 },
 {
 glyphname = J;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2847,7 +2892,6 @@ unicode = 004A;
 },
 {
 glyphname = K;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2937,7 +2981,6 @@ unicode = 004B;
 },
 {
 glyphname = L;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -2979,7 +3022,6 @@ unicode = 004C;
 },
 {
 glyphname = M;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3070,7 +3112,6 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -3157,7 +3198,6 @@ unicode = 004E;
 },
 {
 glyphname = Ntilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3282,7 +3322,6 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -3383,7 +3422,6 @@ unicode = 004F;
 },
 {
 glyphname = Oacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3502,7 +3540,6 @@ unicode = 00D3;
 },
 {
 glyphname = Ocircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3629,7 +3666,6 @@ unicode = 00D4;
 },
 {
 glyphname = Odieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3786,7 +3822,6 @@ unicode = 00D6;
 },
 {
 glyphname = Ograve;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -3905,7 +3940,6 @@ unicode = 00D2;
 },
 {
 glyphname = Oslash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4036,7 +4070,6 @@ unicode = 00D8;
 },
 {
 glyphname = Otilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4175,7 +4208,6 @@ unicode = 00D5;
 },
 {
 glyphname = OE;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4288,7 +4320,6 @@ unicode = 0152;
 },
 {
 glyphname = P;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4382,7 +4413,6 @@ unicode = 0050;
 },
 {
 glyphname = Thorn;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4478,7 +4508,6 @@ unicode = 00DE;
 },
 {
 glyphname = Q;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4597,7 +4626,6 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4705,7 +4733,6 @@ unicode = 0052;
 },
 {
 glyphname = S;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4814,7 +4841,6 @@ unicode = 0053;
 },
 {
 glyphname = T;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -4859,7 +4885,6 @@ unicode = 0054;
 },
 {
 glyphname = U;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -4950,7 +4975,6 @@ unicode = 0055;
 },
 {
 glyphname = Uacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5059,7 +5083,6 @@ unicode = 00DA;
 },
 {
 glyphname = Ucircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5176,7 +5199,6 @@ unicode = 00DB;
 },
 {
 glyphname = Udieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5323,7 +5345,6 @@ unicode = 00DC;
 },
 {
 glyphname = Ugrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5432,7 +5453,6 @@ unicode = 00D9;
 },
 {
 glyphname = V;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5487,7 +5507,6 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5578,7 +5597,6 @@ unicode = 0057;
 },
 {
 glyphname = X;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5655,7 +5673,6 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -5730,7 +5747,6 @@ unicode = 0059;
 },
 {
 glyphname = Yacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5823,7 +5839,6 @@ unicode = 00DD;
 },
 {
 glyphname = Ydieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -5954,7 +5969,6 @@ unicode = 0178;
 },
 {
 glyphname = Z;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6015,7 +6029,6 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -6150,7 +6163,6 @@ unicode = 0061;
 },
 {
 glyphname = aacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6303,7 +6315,6 @@ unicode = 00E1;
 },
 {
 glyphname = acircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6464,7 +6475,6 @@ unicode = 00E2;
 },
 {
 glyphname = adieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6655,7 +6665,6 @@ unicode = 00E4;
 },
 {
 glyphname = agrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6808,7 +6817,6 @@ unicode = 00E0;
 },
 {
 glyphname = aring;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -6999,7 +7007,6 @@ unicode = 00E5;
 },
 {
 glyphname = atilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7172,7 +7179,6 @@ unicode = 00E3;
 },
 {
 glyphname = ae;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7341,7 +7347,6 @@ unicode = 00E6;
 },
 {
 glyphname = b;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7444,7 +7449,6 @@ unicode = 0062;
 },
 {
 glyphname = c;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -7539,7 +7543,6 @@ unicode = 0063;
 },
 {
 glyphname = ccedilla;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7672,7 +7675,6 @@ unicode = 00E7;
 },
 {
 glyphname = d;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7796,7 +7798,6 @@ unicode = 0064;
 },
 {
 glyphname = eth;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -7917,7 +7918,6 @@ unicode = 00F0;
 },
 {
 glyphname = e;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -8038,7 +8038,6 @@ unicode = 0065;
 },
 {
 glyphname = eacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8177,7 +8176,6 @@ unicode = 00E9;
 },
 {
 glyphname = ecircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8324,7 +8322,6 @@ unicode = 00EA;
 },
 {
 glyphname = edieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8501,7 +8498,6 @@ unicode = 00EB;
 },
 {
 glyphname = egrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8640,7 +8636,6 @@ unicode = 00E8;
 },
 {
 glyphname = f;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8737,7 +8732,6 @@ unicode = 0066;
 },
 {
 glyphname = g;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8881,7 +8875,6 @@ unicode = 0067;
 },
 {
 glyphname = h;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -8978,7 +8971,6 @@ unicode = 0068;
 },
 {
 glyphname = i;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9087,7 +9079,6 @@ unicode = 0069;
 },
 {
 glyphname = dotlessi;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -9174,7 +9165,6 @@ unicode = 0131;
 },
 {
 glyphname = iacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9279,7 +9269,6 @@ unicode = 00ED;
 },
 {
 glyphname = icircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9392,7 +9381,6 @@ unicode = 00EE;
 },
 {
 glyphname = idieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9535,7 +9523,6 @@ unicode = 00EF;
 },
 {
 glyphname = igrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9640,7 +9627,6 @@ unicode = 00EC;
 },
 {
 glyphname = j;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9723,7 +9709,6 @@ unicode = 006A;
 },
 {
 glyphname = k;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9821,7 +9806,6 @@ unicode = 006B;
 },
 {
 glyphname = l;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -9894,7 +9878,6 @@ unicode = 006C;
 },
 {
 glyphname = m;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10045,7 +10028,6 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -10172,7 +10154,6 @@ unicode = 006E;
 },
 {
 glyphname = ntilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10337,7 +10318,6 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -10438,7 +10418,6 @@ unicode = 006F;
 },
 {
 glyphname = oacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10557,7 +10536,6 @@ unicode = 00F3;
 },
 {
 glyphname = ocircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10684,7 +10662,6 @@ unicode = 00F4;
 },
 {
 glyphname = odieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10841,7 +10818,6 @@ unicode = 00F6;
 },
 {
 glyphname = ograve;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -10960,7 +10936,6 @@ unicode = 00F2;
 },
 {
 glyphname = oslash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11087,7 +11062,6 @@ unicode = 00F8;
 },
 {
 glyphname = otilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11226,7 +11200,6 @@ unicode = 00F5;
 },
 {
 glyphname = oe;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11393,7 +11366,6 @@ unicode = 0153;
 },
 {
 glyphname = p;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11518,7 +11490,6 @@ unicode = 0070;
 },
 {
 glyphname = thorn;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11625,7 +11596,6 @@ unicode = 00FE;
 },
 {
 glyphname = q;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11731,7 +11701,6 @@ unicode = 0071;
 },
 {
 glyphname = r;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11819,7 +11788,6 @@ unicode = 0072;
 },
 {
 glyphname = s;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -11928,7 +11896,6 @@ unicode = 0073;
 },
 {
 glyphname = germandbls;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12049,7 +12016,6 @@ unicode = 00DF;
 },
 {
 glyphname = t;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12138,7 +12104,6 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -12265,7 +12230,6 @@ unicode = 0075;
 },
 {
 glyphname = uacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12410,7 +12374,6 @@ unicode = 00FA;
 },
 {
 glyphname = ucircumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12563,7 +12526,6 @@ unicode = 00FB;
 },
 {
 glyphname = udieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12746,7 +12708,6 @@ unicode = 00FC;
 },
 {
 glyphname = ugrave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12891,7 +12852,6 @@ unicode = 00F9;
 },
 {
 glyphname = v;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -12983,7 +12943,6 @@ unicode = 0076;
 },
 {
 glyphname = w;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13119,7 +13078,6 @@ unicode = 0077;
 },
 {
 glyphname = x;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13222,7 +13180,6 @@ unicode = 0078;
 },
 {
 glyphname = y;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -13371,7 +13328,6 @@ unicode = 0079;
 },
 {
 glyphname = yacute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13538,7 +13494,6 @@ unicode = 00FD;
 },
 {
 glyphname = ydieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13743,7 +13698,6 @@ unicode = 00FF;
 },
 {
 glyphname = z;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13826,7 +13780,6 @@ unicode = 007A;
 },
 {
 glyphname = ordfeminine;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -13945,7 +13898,6 @@ unicode = 00AA;
 },
 {
 glyphname = ordmasculine;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14032,7 +13984,6 @@ unicode = 00BA;
 },
 {
 glyphname = zero;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14119,7 +14070,6 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14170,7 +14120,6 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14249,7 +14198,6 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14362,7 +14310,6 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14421,7 +14368,6 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14512,7 +14458,6 @@ unicode = 0035;
 },
 {
 glyphname = six;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14631,7 +14576,6 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14674,7 +14618,6 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14819,7 +14762,6 @@ unicode = 0038;
 },
 {
 glyphname = nine;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14938,7 +14880,6 @@ unicode = 0039;
 },
 {
 glyphname = uni00B9;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -14989,7 +14930,6 @@ unicode = 00B9;
 },
 {
 glyphname = uni00B2;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15068,7 +15008,6 @@ unicode = 00B2;
 },
 {
 glyphname = uni00B3;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15181,7 +15120,6 @@ unicode = 00B3;
 },
 {
 glyphname = uni2074;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15240,7 +15178,6 @@ unicode = 2074;
 },
 {
 glyphname = fraction;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15277,7 +15214,6 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15406,7 +15342,6 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15515,7 +15450,6 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15686,7 +15620,6 @@ unicode = 00BE;
 },
 {
 glyphname = asterisk;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15745,7 +15678,6 @@ unicode = 002A;
 },
 {
 glyphname = backslash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15782,7 +15714,6 @@ unicode = 005C;
 },
 {
 glyphname = periodcentered;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15835,7 +15766,6 @@ unicode = 00B7;
 },
 {
 glyphname = bullet;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15888,7 +15818,6 @@ unicode = 2022;
 },
 {
 glyphname = colon;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -15975,7 +15904,6 @@ unicode = 003A;
 },
 {
 glyphname = comma;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16036,7 +15964,6 @@ unicode = 002C;
 },
 {
 glyphname = exclam;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16107,7 +16034,6 @@ unicode = 0021;
 },
 {
 glyphname = exclamdown;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16178,7 +16104,6 @@ unicode = 00A1;
 },
 {
 glyphname = numbersign;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16281,7 +16206,6 @@ unicode = 0023;
 },
 {
 glyphname = period;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16334,7 +16258,6 @@ unicode = 002E;
 },
 {
 glyphname = question;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16443,7 +16366,6 @@ unicode = 003F;
 },
 {
 glyphname = questiondown;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16552,7 +16474,6 @@ unicode = 00BF;
 },
 {
 glyphname = quotedbl;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16609,7 +16530,6 @@ unicode = 0022;
 },
 {
 glyphname = quotesingle;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16648,7 +16568,6 @@ unicode = 0027;
 },
 {
 glyphname = semicolon;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16743,7 +16662,6 @@ unicode = 003B;
 },
 {
 glyphname = slash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16780,7 +16698,6 @@ unicode = 002F;
 },
 {
 glyphname = underscore;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16817,7 +16734,6 @@ unicode = 005F;
 },
 {
 glyphname = braceleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -16956,7 +16872,6 @@ unicode = 007B;
 },
 {
 glyphname = braceright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17095,7 +17010,6 @@ unicode = 007D;
 },
 {
 glyphname = bracketleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17140,7 +17054,6 @@ unicode = 005B;
 },
 {
 glyphname = bracketright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17185,7 +17098,6 @@ unicode = 005D;
 },
 {
 glyphname = parenleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17242,7 +17154,6 @@ unicode = 0028;
 },
 {
 glyphname = parenright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17299,7 +17210,6 @@ unicode = 0029;
 },
 {
 glyphname = emdash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17338,7 +17248,6 @@ unicode = 2014;
 },
 {
 glyphname = endash;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17377,7 +17286,6 @@ unicode = 2013;
 },
 {
 glyphname = hyphen;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17416,7 +17324,6 @@ unicode = 002D;
 },
 {
 glyphname = uni00AD;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17455,7 +17362,6 @@ unicode = 00AD;
 },
 {
 glyphname = apostrophe;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17516,7 +17422,6 @@ unicode = 02BC;
 },
 {
 glyphname = guillemotleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17605,7 +17510,6 @@ unicode = 00AB;
 },
 {
 glyphname = guillemotright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17694,7 +17598,6 @@ unicode = 00BB;
 },
 {
 glyphname = guilsinglleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17749,7 +17652,6 @@ unicode = 2039;
 },
 {
 glyphname = guilsinglright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17804,7 +17706,6 @@ unicode = 203A;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -17909,7 +17810,6 @@ unicode = 201E;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18014,7 +17914,6 @@ unicode = 201C;
 },
 {
 glyphname = quotedblright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18119,7 +18018,6 @@ unicode = 201D;
 },
 {
 glyphname = quoteleft;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18182,7 +18080,6 @@ unicode = 2018;
 },
 {
 glyphname = quoteright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18245,7 +18142,6 @@ unicode = 2019;
 },
 {
 glyphname = quotesinglbase;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18308,7 +18204,6 @@ unicode = 201A;
 },
 {
 glyphname = space;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18322,23 +18217,21 @@ width = 220;
 unicode = 0020;
 },
 {
-glyphname = uni00A0;
-lastChange = "2017-07-21 14:56:56 +0000";
+glyphname = nbspace;
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
-width = 247;
+width = 220;
 },
 {
 layerId = "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E";
-width = 247;
+width = 220;
 }
 );
 unicode = 00A0;
 },
 {
 glyphname = .notdef;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18352,7 +18245,6 @@ width = 265;
 },
 {
 glyphname = Euro;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18469,7 +18361,6 @@ unicode = 20AC;
 },
 {
 glyphname = cent;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18576,7 +18467,6 @@ unicode = 00A2;
 },
 {
 glyphname = currency;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18711,7 +18601,6 @@ unicode = 00A4;
 },
 {
 glyphname = dollar;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18832,7 +18721,6 @@ unicode = 0024;
 },
 {
 glyphname = sterling;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -18959,7 +18847,6 @@ unicode = 00A3;
 },
 {
 glyphname = yen;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19034,7 +18921,6 @@ unicode = 00A5;
 },
 {
 glyphname = plus;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19087,7 +18973,6 @@ unicode = 002B;
 },
 {
 glyphname = minus;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19124,7 +19009,6 @@ unicode = 2212;
 },
 {
 glyphname = multiply;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19177,7 +19061,6 @@ unicode = 00D7;
 },
 {
 glyphname = divide;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19282,7 +19165,6 @@ unicode = 00F7;
 },
 {
 glyphname = equal;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19337,7 +19219,6 @@ unicode = 003D;
 },
 {
 glyphname = greater;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19392,7 +19273,6 @@ unicode = 003E;
 },
 {
 glyphname = less;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19447,7 +19327,6 @@ unicode = 003C;
 },
 {
 glyphname = plusminus;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19508,7 +19387,6 @@ unicode = 00B1;
 },
 {
 glyphname = asciitilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19577,7 +19455,6 @@ unicode = 007E;
 },
 {
 glyphname = logicalnot;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19618,7 +19495,6 @@ unicode = 00AC;
 },
 {
 glyphname = uni00B5;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19727,7 +19603,6 @@ unicode = 00B5;
 },
 {
 glyphname = percent;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19900,7 +19775,6 @@ unicode = 0025;
 },
 {
 glyphname = uni2215;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -19937,7 +19811,6 @@ unicode = 2215;
 },
 {
 glyphname = at;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20118,7 +19991,6 @@ unicode = 0040;
 },
 {
 glyphname = ampersand;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20265,7 +20137,6 @@ unicode = 0026;
 },
 {
 glyphname = paragraph;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20338,7 +20209,6 @@ unicode = 00B6;
 },
 {
 glyphname = section;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20489,7 +20359,6 @@ unicode = 00A7;
 },
 {
 glyphname = copyright;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20638,7 +20507,6 @@ unicode = 00A9;
 },
 {
 glyphname = registered;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20813,7 +20681,6 @@ unicode = 00AE;
 },
 {
 glyphname = degree;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20900,7 +20767,6 @@ unicode = 00B0;
 },
 {
 glyphname = bar;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20937,7 +20803,6 @@ unicode = 007C;
 },
 {
 glyphname = brokenbar;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -20992,7 +20857,6 @@ unicode = 00A6;
 },
 {
 glyphname = asciicircum;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -21047,7 +20911,6 @@ unicode = 005E;
 },
 {
 glyphname = acute;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21108,7 +20971,6 @@ unicode = 00B4;
 },
 {
 glyphname = cedilla;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21201,7 +21063,6 @@ unicode = 00B8;
 },
 {
 glyphname = circumflex;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21270,7 +21131,6 @@ unicode = 02C6;
 },
 {
 glyphname = dieresis;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21377,7 +21237,6 @@ unicode = 00A8;
 },
 {
 glyphname = grave;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21438,7 +21297,6 @@ unicode = 0060;
 },
 {
 glyphname = macron;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21487,7 +21345,6 @@ unicode = 00AF;
 },
 {
 glyphname = ring;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
@@ -21574,7 +21431,6 @@ unicode = 02DA;
 },
 {
 glyphname = tilde;
-lastChange = "2017-07-21 14:56:56 +0000";
 layers = (
 {
 anchors = (
@@ -21660,6 +21516,34 @@ width = 494;
 }
 );
 unicode = 02DC;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
+width = 220;
+},
+{
+layerId = "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E";
+width = 220;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "3E88664E-E4A1-4C90-B697-57006E853054";
+width = 0;
+},
+{
+layerId = "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E";
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 instances = (
@@ -21668,1932 +21552,1945 @@ interpolationWeight = 400;
 instanceInterpolations = {
 "3E88664E-E4A1-4C90-B697-57006E853054" = 1;
 };
-name = Regular;
+isItalic = 1;
+name = Italic;
 },
 {
 interpolationWeight = 700;
 instanceInterpolations = {
 "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E" = 1;
 };
-name = Bold;
+isItalic = 1;
+name = "Bold Italic";
 }
 );
 kerning = {
 "3E88664E-E4A1-4C90-B697-57006E853054" = {
 A = {
-U = -20;
-asterisk = -60;
-comma = 30;
-V = -45;
-AE = 20;
-quoteright = -80;
-W = -20;
-period = 30;
-X = 20;
-f = -12;
-apostrophe = -63;
-Y = -25;
-quotesingle = -40;
-t = -16;
-hyphen = -50;
-Z = 20;
-registered = -80;
-two = 7;
 A = 20;
+AE = 20;
 O = -25;
-one = -31;
 Q = -25;
-seven = -12;
-quoteleft = -40;
-backslash = -40;
-bullet = -40;
-bracketright = -14;
-slash = 10;
-z = 40;
-periodcentered = -40;
 T = -40;
+U = -20;
+V = -45;
+W = -20;
+X = 20;
+Y = -25;
+Z = 20;
+apostrophe = -63;
+asterisk = -60;
+backslash = -40;
+bracketright = -14;
+bullet = -40;
+comma = 30;
+f = -12;
+hyphen = -50;
+one = -31;
+period = 30;
+periodcentered = -40;
+quoteleft = -40;
+quoteright = -80;
+quotesingle = -40;
+registered = -80;
+seven = -12;
+slash = 10;
+t = -16;
+two = 7;
+z = 40;
+};
+B = {
+AE = -10;
+S = -20;
+T = -20;
+V = -5;
+W = -10;
+X = -9;
+Y = -10;
+Z = -10;
+apostrophe = -31;
+asterisk = -30;
+braceright = -15;
+bracketright = -14;
+comma = -40;
+f = -5;
+parenright = -15;
+s = -8;
+seven = -8;
+slash = -20;
+t = -5;
+x = -12;
+z = -6;
+};
+C = {
+O = -13;
+Q = -25;
+V = 5;
+W = 10;
+apostrophe = -31;
+asterisk = -10;
+at = -10;
+braceright = 10;
+bullet = -40;
+eth = -14;
+exclam = -30;
+exclamdown = -30;
+four = -44;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -36;
+hyphen = -80;
+n = -6;
+o = -45;
+one = -8;
+periodcentered = -40;
+registered = -40;
+six = -9;
+t = -5;
+u = -14;
+};
+D = {
+A = -40;
+AE = -25;
+T = -60;
+V = -30;
+W = -10;
+X = -40;
+Y = -30;
+Z = -20;
+apostrophe = -31;
+backslash = -8;
+braceright = -20;
+bracketright = -17;
+comma = -40;
+exclam = -10;
+exclamdown = -10;
+parenright = -10;
+period = -20;
+question = -10;
+questiondown = -10;
+seven = -10;
+slash = -11;
+three = -8;
+two = -9;
+x = -11;
+z = -5;
+};
+E = {
+O = -8;
+Q = -8;
+apostrophe = -37;
+eth = -11;
+f = -6;
+four = -29;
+guillemotleft = -50;
+guilsinglleft = -23;
+hyphen = -40;
+n = -5;
+o = -40;
+one = -23;
+t = -7;
+u = -8;
+};
+F = {
+A = -80;
+AE = -80;
+I = -30;
+J = -20;
+O = -20;
+Q = -40;
+S = -20;
+T = 20;
+V = 25;
+W = 20;
+X = -20;
+Y = 20;
+ampersand = -32;
+apostrophe = -29;
+at = -40;
+braceright = 10;
+bracketright = 8;
+colon = -40;
+comma = -150;
+eight = -10;
+eth = -28;
+exclam = -20;
+exclamdown = -20;
+f = -40;
+four = -17;
+germandbls = -10;
+guillemotleft = -50;
+guillemotright = -40;
+guilsinglleft = -26;
+guilsinglright = -20;
+h = -35;
+icircumflex = 53;
+idieresis = 27;
+igrave = 6;
+j = -45;
+n = -80;
+o = -60;
+one = -16;
+parenright = 12;
+period = -140;
+quotesinglbase = -72;
+s = -80;
+semicolon = -16;
+seven = 5;
+six = -10;
+slash = -44;
+t = -60;
+u = -80;
+x = -90;
+z = -60;
+zero = -8;
+};
+G = {
+Q = -20;
+T = -10;
+V = -20;
+W = -10;
+Y = -10;
+apostrophe = -51;
+braceright = 10;
+f = -11;
+n = -5;
+one = -30;
+quoteleft = -16;
+quoteright = -23;
+quotesingle = -12;
+registered = -20;
+t = -11;
+};
+I = {
+A = -45;
+Q = -20;
+S = -20;
+T = -10;
+apostrophe = -35;
+b = -6;
+eth = -7;
+germandbls = -6;
+guillemotleft = -30;
+guillemotright = -20;
+h = -6;
+i = -6;
+icircumflex = 1;
+j = -6;
+l = -7;
+n = -6;
+o = -40;
+s = -6;
+slash = -30;
+u = -20;
+z = -5;
+};
+J = {
+A = -40;
+S = -20;
+Z = -20;
+apostrophe = -35;
+asterisk = -15;
+b = -6;
+comma = -30;
+eth = -7;
+exclam = -20;
+exclamdown = -20;
+germandbls = -6;
+guillemotleft = -30;
+guillemotright = -40;
+h = -6;
+i = -6;
+icircumflex = 1;
+j = -6;
+l = -7;
+n = -30;
+o = -7;
+period = -20;
+s = -6;
+u = -8;
+z = -5;
+};
+K = {
+I = -20;
+J = 10;
+O = -30;
+Q = -50;
+S = -20;
+W = -10;
+Y = 10;
+ampersand = -6;
+apostrophe = -37;
+asterisk = -40;
+bullet = -60;
+colon = -40;
+comma = 30;
+eth = -15;
+exclam = -50;
+exclamdown = -50;
+f = -20;
+four = -17;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -23;
+h = -30;
+hyphen = -80;
+icircumflex = 7;
+j = 20;
+n = -50;
+o = -60;
+periodcentered = -60;
+registered = -60;
+s = -40;
+semicolon = 10;
+six = -8;
+slash = 35;
+t = -55;
+two = 6;
+u = -55;
+x = 15;
+z = -10;
+};
+L = {
+A = 20;
+AE = 16;
+I = -10;
+J = -10;
+O = -50;
+Q = -50;
+S = -5;
+T = -60;
+U = -14;
+V = -80;
+W = -70;
+X = 20;
+Y = -80;
+apostrophe = -87;
+asterisk = -100;
+at = 5;
+backslash = -53;
+braceright = -20;
+bracketright = -18;
+bullet = -80;
+eth = -5;
+exclam = -20;
+exclamdown = -20;
+f = -45;
+four = -59;
+guillemotleft = -30;
+guillemotright = -20;
+guilsinglleft = -30;
+h = -20;
+hyphen = -115;
+j = -10;
+n = -30;
+nine = -8;
+o = -40;
+one = -41;
+parenright = -10;
+periodcentered = -80;
+quoteleft = -80;
+quoteright = -90;
+quotesingle = -64;
+registered = -80;
+s = 10;
+seven = -15;
+six = -9;
+t = -65;
+u = -30;
+x = 35;
+z = 15;
+zero = -8;
+};
+M = {
+Q = -15;
+T = -9;
+Y = -7;
+apostrophe = -38;
+b = -6;
+braceright = -10;
+eth = -6;
+exclam = -10;
+exclamdown = -10;
+f = -6;
+germandbls = -6;
+h = -6;
+i = -6;
+j = -6;
+l = -6;
+n = -6;
+o = -6;
+slash = -20;
+t = -6;
+u = -7;
+};
+O = {
+A = -60;
+AE = -25;
+S = -20;
+T = -25;
+V = -30;
+W = -10;
+X = -55;
+Y = -35;
+Z = -20;
+apostrophe = -31;
+braceright = -10;
+bracketright = -15;
+comma = -80;
+guillemotleft = -10;
+guillemotright = -20;
+n = -30;
+o = -20;
+period = -15;
+question = -10;
+questiondown = -10;
+s = -40;
+seven = -9;
+slash = -40;
+two = -8;
+u = -20;
+x = -11;
+z = -5;
+};
+P = {
+A = -130;
+AE = -65;
+I = -45;
+J = -40;
+O = -45;
+Q = -30;
+S = -50;
+T = -45;
+V = -25;
+W = -20;
+X = -80;
+Y = -30;
+Z = -80;
+ampersand = -22;
+apostrophe = -24;
+at = -50;
+braceright = -20;
+colon = -40;
+comma = -195;
+eth = -18;
+exclam = -30;
+exclamdown = -30;
+f = -25;
+four = -11;
+germandbls = -5;
+guillemotleft = -60;
+guillemotright = -40;
+guilsinglleft = -26;
+h = -80;
+hyphen = -40;
+icircumflex = 27;
+j = -65;
+n = -55;
+o = -90;
+period = -180;
+question = -20;
+questiondown = -20;
+quotesinglbase = -86;
+s = -70;
+slash = -120;
+t = -40;
+u = -70;
+x = -50;
+z = -50;
+};
+Q = {
+A = -20;
+AE = -19;
+J = 40;
+T = -17;
+V = -20;
+W = -20;
+X = -20;
+Y = -50;
+Z = -15;
+apostrophe = -32;
+bracketright = 11;
+comma = -40;
+exclam = -30;
+exclamdown = -30;
+f = 9;
+germandbls = 64;
+guillemotleft = -20;
+guillemotright = -20;
+j = 52;
+period = -40;
+question = -8;
+questiondown = -8;
+seven = -9;
+x = -10;
+z = -5;
+};
+R = {
+I = -20;
+J = 10;
+O = -20;
+Q = -20;
+S = -30;
+T = -50;
+U = -5;
+V = -35;
+W = -20;
+Y = -40;
+Z = -10;
+apostrophe = -37;
+asterisk = -40;
+backslash = -8;
+bullet = -40;
+comma = 40;
+eth = -9;
+exclam = -30;
+exclamdown = -30;
+f = -20;
+guillemotleft = -50;
+guillemotright = -30;
+guilsinglleft = -13;
+h = -40;
+hyphen = -70;
+i = -6;
+l = -6;
+n = -45;
+o = -55;
+periodcentered = -40;
+quotesinglbase = 10;
+registered = -20;
+s = -40;
+slash = 50;
+t = -40;
+u = -50;
+x = 15;
+z = -10;
+};
+S = {
+A = -30;
+AE = -5;
+I = -10;
+S = -20;
+T = -40;
+V = -20;
+W = -20;
+X = -30;
+Y = -50;
+Z = -20;
+apostrophe = -42;
+asterisk = -40;
+bullet = -20;
+comma = -40;
+f = -30;
+h = -30;
+hyphen = -30;
+j = -30;
+n = -40;
+o = -20;
+one = -20;
+periodcentered = -20;
+quoteleft = -50;
+quoteright = -9;
+s = -20;
+slash = -30;
+t = -50;
+u = -10;
+x = -35;
+z = -15;
+};
+T = {
+A = -80;
+AE = -63;
+M = -9;
+O = -30;
+Q = -30;
+S = -20;
+T = -5;
+V = 40;
+W = 25;
+X = -20;
+Y = 25;
+Z = -20;
+ampersand = -50;
+apostrophe = -34;
+at = -70;
+braceright = 10;
+bracketright = 20;
+bullet = -60;
+colon = -70;
+comma = -110;
+eight = -19;
+eth = -65;
+f = -50;
+five = -8;
+four = -40;
+germandbls = -18;
+guillemotleft = -80;
+guillemotright = -60;
+guilsinglleft = -53;
+guilsinglright = -53;
+h = -40;
+hyphen = -100;
+j = -30;
+n = -95;
+nine = -14;
+o = -80;
+one = -30;
+parenright = 10;
+period = -100;
+periodcentered = -60;
+quotesinglbase = -48;
+registered = -20;
+s = -100;
+semicolon = -44;
+seven = 7;
+six = -34;
+slash = -60;
+t = -70;
+u = -85;
+x = -100;
+z = -70;
+zero = -31;
+};
+Thorn = {
+A = -14;
+AE = -50;
+T = -45;
+V = -8;
+X = -46;
+Y = -17;
+Z = -31;
+backslash = -10;
+braceright = -22;
+bracketright = -25;
+comma = -35;
+parenright = -32;
+period = -34;
+question = -20;
+questiondown = -20;
+quotesinglbase = -35;
+slash = -20;
+x = -10;
+};
+U = {
+A = -60;
+AE = -13;
+T = -10;
+apostrophe = -33;
+b = -7;
+comma = -60;
+eth = -8;
+germandbls = -9;
+guillemotleft = -20;
+guillemotright = -20;
+h = -8;
+hyphen = -20;
+i = -6;
+icircumflex = 5;
+j = -6;
+l = -8;
+n = -35;
+o = -25;
+period = -40;
+quotesinglbase = -8;
+s = -11;
+slash = -80;
+t = -30;
+u = -40;
+x = -6;
+z = -9;
+};
+V = {
+A = -100;
+AE = -61;
+I = -10;
+J = -10;
+O = -45;
+Q = -30;
+S = -30;
+V = 25;
+W = 10;
+X = -30;
+Y = 10;
+Z = -20;
+ampersand = -32;
+apostrophe = -26;
+at = -70;
+braceright = 21;
+bracketright = 36;
+bullet = -60;
+colon = -80;
+comma = -170;
+eth = -39;
+exclam = -30;
+exclamdown = -30;
+f = -20;
+four = -25;
+germandbls = -10;
+guillemotleft = -55;
+guillemotright = -60;
+guilsinglleft = -35;
+guilsinglright = -22;
+h = -40;
+hyphen = -80;
+j = -30;
+n = -75;
+o = -70;
+period = -130;
+periodcentered = -60;
+quotesinglbase = -43;
+registered = -40;
+s = -70;
+semicolon = -10;
+seven = 25;
+six = -13;
+slash = -80;
+t = -55;
+u = -65;
+x = -70;
+z = -45;
+zero = -11;
+};
+W = {
+A = -80;
+AE = -47;
+I = -10;
+O = -25;
+Q = -10;
+S = -25;
+T = 10;
+V = 20;
+W = 15;
+X = -20;
+Y = 15;
+Z = -20;
+ampersand = -21;
+apostrophe = -26;
+at = -30;
+braceright = 15;
+bracketright = 25;
+bullet = -30;
+colon = -60;
+comma = -100;
+eth = -33;
+exclam = -20;
+exclamdown = -20;
+f = -10;
+four = -14;
+germandbls = -8;
+guillemotleft = -55;
+guillemotright = -60;
+guilsinglleft = -24;
+guilsinglright = -13;
+h = -30;
+hyphen = -60;
+j = -20;
+n = -60;
+o = -60;
+period = -100;
+periodcentered = -30;
+quotesinglbase = -31;
+registered = -20;
+s = -65;
+seven = 17;
+slash = -50;
+t = -35;
+u = -35;
+x = -40;
+z = -35;
+};
+X = {
+A = 10;
+O = -45;
+Q = -45;
+S = -20;
+T = -20;
+Z = -20;
+ampersand = -6;
+apostrophe = -35;
+asterisk = -40;
+at = -20;
+bracketright = 6;
+bullet = -80;
+comma = -20;
+eth = -17;
+exclam = -40;
+exclamdown = -40;
+f = -30;
+four = -13;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -22;
+h = -20;
+hyphen = -80;
+j = -15;
+n = -40;
+o = -45;
+one = -11;
+periodcentered = -80;
+registered = -60;
+s = -30;
+six = -9;
+t = -40;
+u = -35;
+x = 10;
+zero = -9;
+};
+Y = {
+A = -100;
+AE = -68;
+I = -20;
+J = -20;
+M = -7;
+O = -55;
+Q = -50;
+S = -40;
+T = 10;
+V = 10;
+W = 10;
+X = -20;
+Y = 15;
+Z = -20;
+ampersand = -45;
+apostrophe = -33;
+asterisk = -10;
+at = -80;
+braceright = 20;
+bracketright = 31;
+bullet = -80;
+colon = -100;
+comma = -160;
+eight = -14;
+eth = -59;
+exclam = -30;
+exclamdown = -30;
+f = -45;
+four = -35;
+germandbls = -15;
+guillemotleft = -90;
+guillemotright = -60;
+guilsinglleft = -51;
+guilsinglright = -31;
+h = -60;
+hyphen = -90;
+j = -30;
+n = -100;
+o = -95;
+period = -100;
+periodcentered = -80;
+quotesinglbase = -52;
+registered = -60;
+s = -80;
+semicolon = -21;
+seven = 21;
+six = -27;
+slash = -60;
+t = -70;
+u = -85;
+x = -95;
+z = -65;
+zero = -23;
+};
+Z = {
+A = -30;
+I = -15;
+O = -30;
+Q = -20;
+S = -20;
+T = -30;
+V = -20;
+W = -15;
+X = -20;
+Y = -20;
+apostrophe = -39;
+asterisk = -10;
+at = -20;
+bullet = -30;
+eth = -14;
+f = -60;
+four = -46;
+germandbls = -6;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -36;
+h = -30;
+hyphen = -120;
+j = -30;
+n = -50;
+o = -60;
+periodcentered = -30;
+registered = -40;
+s = -50;
+six = -10;
+slash = -30;
+t = -60;
+u = -50;
+x = -15;
+z = -15;
+zero = -9;
+};
+a = {
+I = -8;
+J = -8;
+M = -6;
+O = -8;
+Q = -8;
+S = -20;
+T = -65;
+U = -15;
+V = -40;
+W = -10;
+X = -25;
+Y = -55;
+ampersand = -6;
+apostrophe = -40;
+asterisk = -20;
+backslash = -28;
+bracketright = -10;
+bullet = -10;
+exclam = -10;
+exclamdown = -10;
+guillemotleft = -30;
+guillemotright = -10;
+hyphen = -20;
+n = -10;
+periodcentered = -10;
+question = -10;
+questiondown = -10;
+quoteleft = -8;
+quoteright = -20;
+quotesingle = -11;
+registered = -10;
+t = -10;
+};
+ampersand = {
+Q = -6;
+T = -45;
+U = -7;
+V = -45;
+W = -29;
+Y = -45;
+f = -18;
+n = -5;
+quoteright = -35;
+quotesingle = -37;
+t = -19;
+};
+apostrophe = {
+b = -35;
+f = -38;
+h = -35;
+i = -33;
+j = -33;
+l = -35;
+n = -44;
+o = -63;
+s = -57;
+t = -37;
+u = -46;
+x = -33;
+z = -40;
+};
+asterisk = {
+A = -60;
+AE = -90;
+X = -40;
+Y = -10;
+Z = -10;
+eth = -24;
+o = -20;
+quoteright = 11;
+s = -10;
+t = 15;
+};
+at = {
+A = -10;
+AE = -30;
+S = -20;
+T = -70;
+V = -30;
+X = -20;
+Y = -30;
+Z = -20;
+quotesingle = -8;
+};
+backslash = {
+J = 60;
+O = -10;
+Q = -10;
+T = -43;
+U = -15;
+V = -41;
+W = -31;
+Y = -42;
+f = 35;
+germandbls = 30;
+j = 80;
+one = -29;
+quoteright = -32;
+quotesingle = -33;
+t = -9;
+x = 40;
+};
+braceleft = {
+A = -50;
+AE = -50;
+I = -20;
+Icircumflex = 47;
+J = 10;
+M = -10;
+O = -10;
+Q = -30;
+S = -10;
+T = 10;
+V = 21;
+W = 15;
+Y = 20;
+b = -40;
+eight = -15;
+eth = -24;
+four = -18;
+germandbls = 53;
+h = -40;
+i = -40;
+j = 10;
+l = -40;
+n = -50;
+o = -50;
+one = -13;
+parenleft = -9;
+s = -60;
+six = -21;
+t = -60;
+u = -60;
+x = -40;
+z = -40;
+zero = -20;
+};
+bracketleft = {
+A = -15;
+AE = -8;
+J = 56;
+O = -19;
+Q = -19;
+V = 36;
+W = 25;
+X = 5;
+Y = 31;
+eight = -11;
+eth = -25;
+four = -15;
+germandbls = 60;
+j = 35;
+n = -20;
+o = -20;
+one = -11;
+s = -25;
+seven = 20;
+six = -19;
+t = -20;
+u = -30;
+x = -30;
+z = -30;
+zero = -17;
+};
+bullet = {
+A = -40;
+AE = -60;
+S = -40;
+T = -60;
+V = -60;
+W = -30;
+X = -80;
+Y = -60;
+Z = -30;
+b = -20;
+f = -40;
+h = -20;
+i = -20;
+j = -30;
+l = -20;
+n = -40;
+o = -20;
+s = -40;
+t = -20;
+u = -10;
+x = -60;
+z = -40;
+};
+c = {
+O = -8;
+Q = -8;
+S = -20;
+T = -60;
+V = -20;
+W = -10;
+X = -20;
+Y = -50;
+ampersand = -16;
+apostrophe = -25;
+asterisk = -10;
+braceright = 10;
+bullet = -20;
+comma = -20;
+eth = -9;
+exclam = -10;
+exclamdown = -10;
+germandbls = -25;
+guillemotleft = -29;
+guilsinglleft = -29;
+hyphen = -20;
+o = -15;
+periodcentered = -20;
+question = -15;
+questiondown = -15;
+registered = -10;
+s = -10;
+t = -10;
+u = -15;
+};
+colon = {
+T = -70;
+V = -40;
+W = -40;
+Y = -80;
+seven = -40;
+};
+comma = {
+O = -40;
+Q = -40;
+S = -10;
+T = -100;
+U = -40;
+V = -140;
+W = -90;
+Y = -140;
+f = -20;
+h = -30;
+i = -40;
+j = -20;
+l = -40;
+n = -30;
+o = -40;
+one = -30;
+quoteleft = -150;
+quoteright = -150;
+quotesingle = -96;
+seven = -30;
+t = -80;
+u = -40;
+};
+d = {
+I = -9;
+J = -9;
+M = -6;
+O = -8;
+Q = -8;
+T = -10;
+U = -13;
+ampersand = -7;
+apostrophe = -40;
+};
+degree = {
+four = -20;
+six = -10;
+zero = -8;
+};
+e = {
+I = -6;
+J = -6;
+M = -5;
+S = -20;
+T = -60;
+U = -9;
+V = -40;
+W = -20;
+X = -30;
+Y = -50;
+Z = -20;
+ampersand = -9;
+apostrophe = -37;
+asterisk = -10;
+backslash = -20;
+bracketright = -20;
+bullet = -10;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -25;
+guillemotleft = -20;
+guillemotright = -10;
+hyphen = -20;
+parenright = -30;
+periodcentered = -10;
+question = -15;
+questiondown = -15;
+s = -10;
+t = -20;
+u = -5;
+};
+eight = {
+T = -19;
+V = -8;
+Y = -15;
+backslash = -9;
+braceright = -15;
+bracketright = -11;
+parenright = -18;
+};
+equal = {
+seven = -24;
+};
+eth = {
+ampersand = -5;
+comma = -8;
+period = -11;
+quotesinglbase = -8;
+x = -13;
+z = -4;
+};
+exclam = {
+AE = -10;
+V = -30;
+W = -20;
+X = -40;
+Y = -30;
+};
+exclamdown = {
+AE = -10;
+V = -30;
+W = -20;
+X = -40;
+Y = -30;
+};
+f = {
+A = -21;
+I = -10;
+S = -20;
+T = -45;
+V = 30;
+W = 35;
+X = 5;
+Z = -20;
+ampersand = -20;
+apostrophe = -18;
+backslash = 45;
+braceright = 50;
+bracketright = 20;
+bullet = -50;
+comma = -80;
+eth = -11;
+exclam = -20;
+exclamdown = -20;
+germandbls = -30;
+guillemotleft = -50;
+guillemotright = -20;
+guilsinglleft = -24;
+hyphen = -40;
+i = -10;
+n = -30;
+o = -35;
+period = -70;
+periodcentered = -50;
+question = 20;
+questiondown = -40;
+quoteleft = 20;
+quotesinglbase = -50;
+quotesingle = 20;
+registered = -10;
+s = -40;
+slash = -20;
+t = -45;
+u = -35;
+x = -30;
+z = -25;
+};
+four = {
+S = -8;
+T = -44;
+V = -27;
+W = -17;
+Y = -34;
+Z = -9;
+backslash = -28;
+braceright = -21;
+bracketright = -16;
+degree = -26;
+one = -14;
+parenright = -27;
+quotesingle = -13;
+seven = -29;
+};
+fraction = {
+four = -25;
+seven = 12;
+six = -11;
+zero = -10;
+};
+g = {
+I = -9;
+J = 30;
+M = -6;
+O = -7;
+Q = -7;
+S = -15;
+T = -70;
+U = -13;
+V = -50;
+W = -40;
+X = -10;
+Y = -60;
+ampersand = -7;
+apostrophe = -38;
+asterisk = -30;
+backslash = -60;
+braceright = 20;
+bracketright = -15;
+bullet = -30;
+f = 15;
+germandbls = 40;
+guillemotleft = -20;
+guillemotright = -10;
+hyphen = -20;
+j = 45;
+n = -10;
+o = -10;
+periodcentered = -30;
+question = -30;
+questiondown = -10;
+quoteleft = -20;
+quoteright = -20;
+quotesingle = -8;
+registered = -10;
+s = -15;
+slash = 5;
+t = -30;
+};
+germandbls = {
+asterisk = -11;
+f = -15;
+quoteleft = -10;
+quoteright = -14;
+quotesingle = -10;
+t = -25;
+x = -10;
+};
+guillemotleft = {
+T = -50;
+};
+guillemotright = {
+S = -23;
+T = -50;
+V = -35;
+W = -25;
+X = -20;
+Y = -50;
+Z = -20;
+f = -15;
+quoteright = -35;
+quotesingle = -36;
+s = -20;
+t = -15;
+x = -35;
+z = -20;
+};
+hyphen = {
+A = -70;
+AE = -80;
+S = -80;
+T = -110;
+V = -50;
+W = -30;
+X = -90;
+Y = -60;
+Z = -80;
+b = -10;
+f = -40;
+h = -10;
+i = -10;
+j = -10;
+l = -10;
+n = -30;
+o = -10;
+one = -8;
+seven = -100;
+t = -30;
+three = -15;
+two = -14;
+u = -10;
+x = -80;
+z = -60;
+};
+i = {
+I = -8;
+J = -8;
+M = -5;
+O = -10;
+Q = -10;
+T = -13;
+U = -15;
+V = -7;
+W = -8;
+Y = -8;
+ampersand = -6;
+apostrophe = -43;
+asterisk = -30;
+bullet = -40;
+eth = -4;
+f = -4;
+guillemotleft = -20;
+guillemotright = -20;
+guilsinglleft = -8;
+hyphen = -15;
+periodcentered = -40;
+question = -10;
+quoteleft = -10;
+quoteright = -30;
+quotesingle = -8;
+t = -4;
+};
+j = {
+I = -7;
+J = -7;
+M = -7;
+O = -5;
+Q = -5;
+S = -30;
+T = -10;
+U = -7;
+V = 15;
+W = 10;
+X = -10;
+Z = -20;
+ampersand = -6;
+apostrophe = -35;
+asterisk = -10;
+bullet = -20;
+comma = -30;
+exclam = -10;
+exclamdown = -10;
+guillemotleft = -10;
+guillemotright = -10;
+period = -30;
+periodcentered = -20;
+quoteright = -20;
+};
+k = {
+I = -8;
+J = -8;
+M = -6;
+O = -6;
+Q = -6;
+S = -40;
+T = -80;
+U = -12;
+V = -40;
+W = -30;
+X = -10;
+Y = -50;
+Z = -20;
+ampersand = -12;
+apostrophe = -40;
+asterisk = -30;
+backslash = -22;
+bracketright = -20;
+bullet = -20;
+comma = 40;
+exclam = -60;
+exclamdown = -60;
+germandbls = 15;
+guillemotleft = -40;
+guillemotright = -20;
+guilsinglleft = -10;
+hyphen = -10;
+j = 10;
+l = -30;
+n = -25;
+o = -25;
+period = -20;
+periodcentered = -20;
+question = -30;
+quoteleft = -20;
+quotesingle = -9;
+registered = -20;
+s = -15;
+semicolon = 10;
+slash = 45;
+t = -35;
+u = -20;
+z = -10;
+};
+l = {
+O = -12;
+Q = -12;
+T = -22;
+U = -18;
+V = -15;
+W = -15;
+Y = -17;
+apostrophe = -49;
+asterisk = -50;
+bullet = -40;
+f = -10;
+guillemotleft = -13;
+guilsinglleft = -13;
+hyphen = -45;
+n = -20;
+o = -15;
+periodcentered = -40;
+quoteleft = -20;
+quoteright = -30;
+quotesingle = -20;
+registered = -30;
+t = -25;
+};
+minus = {
+one = -11;
+seven = -28;
+three = -12;
+two = -25;
+};
+n = {
+I = -8;
+M = -7;
+Q = -5;
+S = -10;
+T = -60;
+V = -35;
+W = -20;
+X = -10;
+Y = -50;
+Z = -10;
+ampersand = -5;
+apostrophe = -43;
+asterisk = -20;
+backslash = -29;
+question = -10;
+questiondown = -10;
+quoteleft = -25;
+quoteright = -25;
+quotesingle = -16;
+t = -20;
+};
+nine = {
+A = -8;
+T = -28;
+V = -10;
+X = -14;
+Y = -22;
+Z = -13;
+backslash = -10;
+braceright = -20;
+bracketright = -16;
+fraction = -15;
+parenright = -26;
+seven = -9;
+slash = -20;
+};
+o = {
+A = -6;
+J = -8;
+M = -7;
+S = -25;
+T = -55;
+U = -8;
+V = -40;
+W = -20;
+X = -20;
+Y = -50;
+Z = -15;
+apostrophe = -46;
+asterisk = -20;
+backslash = -30;
+comma = -10;
+period = -25;
+question = -10;
+questiondown = -10;
+quoteleft = -19;
+quoteright = -17;
+quotesingle = -19;
+t = -10;
+x = -25;
+z = -10;
+};
+one = {
+braceright = -8;
+slash = -20;
+};
+parenleft = {
+AE = -20;
+J = 50;
+Q = -25;
+T = 10;
+Y = 10;
+eight = -17;
+eth = -32;
+four = -28;
+germandbls = 42;
+i = -10;
+j = 60;
+n = -30;
+nine = -8;
+o = -30;
+one = -11;
+seven = 14;
+six = -28;
+t = -40;
+u = -40;
+z = -10;
+zero = -26;
+};
+parenright = {
+braceright = -9;
 };
 period = {
+Q = -40;
+T = -100;
 U = -40;
 V = -130;
-quoteright = -111;
 W = -80;
-s = -20;
-f = -45;
-quotesingle = -96;
 Y = -100;
-t = -70;
-u = -40;
+f = -45;
 h = -20;
 i = -40;
 j = -20;
-one = -30;
-x = -20;
 l = -40;
-Q = -40;
-seven = -30;
-quoteleft = -113;
-z = -10;
 n = -40;
 o = -50;
-T = -100;
-};
-degree = {
-six = -10;
-four = -20;
-zero = -8;
-};
-B = {
-asterisk = -30;
-comma = -40;
-V = -5;
-AE = -10;
-parenright = -15;
-W = -10;
-s = -8;
-X = -9;
-f = -5;
-t = -5;
-Y = -10;
-apostrophe = -31;
-Z = -10;
-x = -12;
-slash = -20;
-seven = -8;
-z = -6;
-braceright = -15;
-bracketright = -14;
-S = -20;
-T = -20;
-};
-parenleft = {
-eth = -32;
-AE = -20;
-J = 50;
-germandbls = 42;
-Y = 10;
-t = -40;
-nine = -8;
-eight = -17;
+one = -30;
+quoteleft = -113;
+quoteright = -111;
+quotesingle = -96;
+s = -20;
+seven = -30;
+t = -70;
 u = -40;
-i = -10;
-j = 60;
-one = -11;
-zero = -26;
-four = -28;
-Q = -25;
-seven = 14;
+x = -20;
 z = -10;
-n = -30;
-six = -28;
-o = -30;
-T = 10;
+};
+periodcentered = {
+A = -40;
+AE = -60;
+S = -40;
+T = -60;
+V = -60;
+W = -30;
+X = -80;
+Y = -60;
+Z = -30;
+b = -20;
+f = -40;
+h = -20;
+i = -20;
+j = -30;
+l = -20;
+n = -40;
+o = -20;
+s = -40;
+t = -20;
+u = -10;
+x = -60;
+z = -40;
+};
+plus = {
+one = -10;
+seven = -38;
+three = -19;
+two = -29;
+};
+q = {
+I = -8;
+J = -5;
+M = -7;
+Q = -5;
+S = -40;
+T = -80;
+U = -10;
+V = -40;
+W = -25;
+X = -25;
+Y = -50;
+Z = -30;
+ampersand = -5;
+apostrophe = -36;
+backslash = -23;
+bracketright = -10;
+j = 15;
+question = -30;
+questiondown = -30;
+quoteright = -10;
 };
 question = {
 A = -60;
 AE = -70;
 s = -15;
 };
-C = {
-asterisk = -10;
-guillemotright = -20;
-V = 5;
-eth = -14;
-exclam = -30;
-W = 10;
-guillemotleft = -60;
-exclamdown = -30;
-apostrophe = -31;
-t = -5;
-u = -14;
-hyphen = -80;
-registered = -40;
-one = -8;
-O = -13;
-four = -44;
-guilsinglleft = -36;
-Q = -25;
-at = -10;
-braceright = 10;
-n = -6;
-bullet = -40;
-six = -9;
-o = -45;
-periodcentered = -40;
-};
-asterisk = {
-s = -10;
-Z = -10;
-t = 15;
-quoteright = 11;
+questiondown = {
 A = -60;
-eth = -24;
-AE = -90;
-X = -40;
-Y = -10;
-o = -20;
+AE = -70;
+f = 10;
+j = 30;
+s = -15;
+x = -30;
+z = -10;
 };
-D = {
-comma = -40;
-question = -10;
-three = -8;
-parenright = -10;
-AE = -25;
-V = -30;
-exclam = -10;
-W = -10;
-period = -20;
-X = -40;
-exclamdown = -10;
-apostrophe = -31;
-Y = -30;
-two = -9;
-Z = -20;
-A = -40;
-x = -11;
-questiondown = -10;
-slash = -11;
-seven = -10;
-z = -5;
-backslash = -8;
-braceright = -20;
-bracketright = -17;
-T = -60;
-};
-E = {
-o = -40;
-guillemotleft = -50;
-Q = -8;
-u = -8;
-four = -29;
-apostrophe = -37;
-t = -7;
-hyphen = -40;
-eth = -11;
-one = -23;
-O = -8;
-n = -5;
-guilsinglleft = -23;
-f = -6;
-};
-one = {
-slash = -20;
-braceright = -8;
-};
-F = {
-z = -60;
-bracketright = 8;
-apostrophe = -29;
-f = -40;
-O = -20;
-ampersand = -32;
-igrave = 6;
-h = -35;
-four = -17;
-Q = -40;
-guilsinglleft = -26;
-guilsinglright = -20;
-exclam = -20;
-eth = -28;
-j = -45;
-S = -20;
-guillemotleft = -50;
-idieresis = 27;
-at = -40;
-T = 20;
-eight = -10;
-period = -140;
-braceright = 10;
-quotesinglbase = -72;
-V = 25;
-n = -80;
-W = 20;
-o = -60;
-seven = 5;
-X = -20;
-one = -16;
-A = -80;
-Y = 20;
-slash = -44;
-comma = -150;
-guillemotright = -40;
-s = -80;
-six = -10;
-colon = -40;
-t = -60;
-germandbls = -10;
-exclamdown = -20;
-parenright = 12;
-semicolon = -16;
-icircumflex = 53;
-u = -80;
-zero = -8;
-x = -90;
+quoteleft = {
+A = -90;
 AE = -80;
-I = -30;
-J = -20;
+T = 20;
+V = 50;
+W = 50;
+X = -30;
+Y = 40;
+comma = -112;
+eth = -33;
+germandbls = -11;
+i = -10;
+j = -20;
+o = -30;
+period = -115;
+questiondown = -150;
+s = -20;
+u = -10;
+x = -20;
+z = -10;
 };
-G = {
-quoteleft = -16;
-Q = -20;
-braceright = 10;
-Y = -10;
-registered = -20;
-apostrophe = -51;
-T = -10;
-quoteright = -23;
-t = -11;
-V = -20;
-one = -30;
-f = -11;
-W = -10;
-n = -5;
-quotesingle = -12;
-};
-four = {
-braceright = -21;
-Y = -34;
-Z = -9;
-S = -8;
-degree = -26;
-T = -44;
-seven = -29;
-bracketright = -16;
-parenright = -27;
-V = -27;
-backslash = -28;
-one = -14;
-W = -17;
-quotesingle = -13;
-};
-I = {
-guillemotright = -20;
-eth = -7;
-guillemotleft = -30;
-s = -6;
-apostrophe = -35;
-germandbls = -6;
-u = -20;
-h = -6;
-i = -6;
-A = -45;
-j = -6;
-l = -7;
-Q = -20;
-slash = -30;
-z = -5;
-icircumflex = 1;
-n = -6;
-S = -20;
-o = -40;
-T = -10;
-b = -6;
-};
-colon = {
-V = -40;
-W = -40;
-T = -70;
-seven = -40;
-Y = -80;
-};
-J = {
-comma = -30;
-asterisk = -15;
-guillemotright = -40;
-eth = -7;
-exclam = -20;
-guillemotleft = -30;
-period = -20;
-exclamdown = -20;
-apostrophe = -35;
-germandbls = -6;
-s = -6;
-u = -8;
-Z = -20;
-h = -6;
-i = -6;
-A = -40;
-j = -6;
-l = -7;
-z = -5;
-icircumflex = 1;
-n = -30;
-S = -20;
-o = -7;
-b = -6;
-};
-zero = {
-X = -12;
-braceright = -19;
-Y = -21;
-Z = -12;
-T = -27;
-seven = -55;
-bracketright = -15;
-parenright = -25;
-V = -10;
-backslash = -10;
-fraction = -13;
-slash = -10;
+quoteright = {
+A = -80;
+AE = -140;
+M = -8;
+O = -10;
+Q = -10;
+T = 30;
+V = 55;
+W = 55;
+Y = 55;
+ampersand = -32;
+at = -34;
+comma = -113;
+eth = -39;
+f = -10;
+germandbls = -9;
+guillemotleft = -51;
+guillemotright = -21;
+guilsinglleft = -51;
+guilsinglright = -21;
+hyphen = -10;
+j = -10;
+n = -15;
+o = -50;
+period = -115;
+questiondown = -150;
+quotesinglbase = -150;
+s = -30;
+slash = -44;
+u = -25;
+x = -20;
 };
 quotesinglbase = {
 Q = -12;
-Y = -51;
-x = 20;
-j = 20;
-z = 10;
 T = -48;
 U = -9;
-quoteright = -111;
-t = -21;
 V = -44;
-quotesingle = -96;
-f = 20;
 W = -32;
-};
-K = {
-registered = -60;
-z = -10;
-two = 6;
-apostrophe = -37;
-f = -20;
-O = -30;
-ampersand = -6;
-h = -30;
-four = -17;
-Q = -50;
-guilsinglleft = -23;
-exclam = -50;
-eth = -15;
+Y = -51;
+f = 20;
 j = 20;
-S = -20;
-guillemotleft = -60;
-bullet = -60;
-n = -50;
-W = -10;
-o = -60;
-periodcentered = -60;
-slash = 35;
-Y = 10;
-comma = 30;
-asterisk = -40;
-guillemotright = -20;
-s = -40;
-six = -8;
-colon = -40;
-t = -55;
-semicolon = 10;
-exclamdown = -50;
-u = -55;
-icircumflex = 7;
-hyphen = -80;
-I = -20;
-x = 15;
-J = 10;
+quoteright = -111;
+quotesingle = -96;
+t = -21;
+x = 20;
+z = 10;
 };
-L = {
-quoteleft = -80;
-registered = -80;
-z = 15;
-bracketright = -18;
-apostrophe = -87;
-f = -45;
-O = -50;
-h = -20;
-four = -59;
-Q = -50;
-guilsinglleft = -30;
-exclam = -20;
-eth = -5;
-j = -10;
-S = -5;
-guillemotleft = -30;
-at = 5;
-T = -60;
-U = -14;
-braceright = -20;
-bullet = -80;
-V = -80;
-n = -30;
-nine = -8;
-W = -70;
-o = -40;
-periodcentered = -80;
-X = 20;
-one = -41;
-A = 20;
-Y = -80;
-seven = -15;
-asterisk = -100;
-guillemotright = -20;
-quotesingle = -64;
-s = 10;
-six = -9;
-quoteright = -90;
-t = -65;
-parenright = -10;
-exclamdown = -20;
-backslash = -53;
-u = -30;
-zero = -8;
-hyphen = -115;
-AE = 16;
-I = -10;
-x = 35;
-J = -10;
-};
-bullet = {
-V = -60;
-AE = -60;
-W = -30;
-s = -40;
-X = -80;
-f = -40;
-t = -20;
-Y = -60;
-u = -10;
-Z = -30;
-h = -20;
-i = -20;
+quotesingle = {
 A = -40;
-j = -30;
-x = -60;
-l = -20;
-z = -40;
-n = -40;
-S = -40;
-o = -20;
-T = -60;
-b = -20;
+AE = -57;
+ampersand = -25;
+at = -17;
+comma = -96;
+eth = -29;
+guillemotleft = -36;
+guilsinglleft = -36;
+o = -22;
+period = -96;
+quotesinglbase = -96;
+s = -11;
+slash = -33;
 };
-M = {
-eth = -6;
-exclam = -10;
-exclamdown = -10;
-apostrophe = -38;
-Y = -7;
-germandbls = -6;
-t = -6;
-f = -6;
-h = -6;
-u = -7;
-i = -6;
-j = -6;
-l = -6;
-Q = -15;
-slash = -20;
-braceright = -10;
-n = -6;
-o = -6;
-T = -9;
-b = -6;
-};
-quoteright = {
-comma = -113;
-guillemotright = -21;
-V = 55;
-AE = -140;
-eth = -39;
-W = 55;
-guillemotleft = -51;
-period = -115;
-f = -10;
-germandbls = -9;
-Y = 55;
-s = -30;
-u = -25;
-hyphen = -10;
+r = {
+A = -38;
+I = -5;
+J = -5;
 M = -8;
-A = -80;
-O = -10;
-j = -10;
-quotesinglbase = -150;
-ampersand = -32;
-questiondown = -150;
-guilsinglleft = -51;
-Q = -10;
-guilsinglright = -21;
-at = -34;
-slash = -44;
-x = -20;
-n = -15;
-o = -50;
-T = 30;
-};
-O = {
-comma = -80;
-question = -10;
-guillemotright = -20;
-V = -30;
-AE = -25;
-W = -10;
-guillemotleft = -10;
-X = -55;
-period = -15;
-apostrophe = -31;
-Y = -35;
-s = -40;
-two = -8;
-Z = -20;
-u = -20;
-A = -60;
-x = -11;
-questiondown = -10;
-slash = -40;
-seven = -9;
-z = -5;
-braceright = -10;
-bracketright = -15;
-S = -20;
-n = -30;
-o = -20;
-T = -25;
-};
-slash = {
-V = 60;
-AE = -46;
-eth = -31;
-W = 55;
-s = -60;
-t = -25;
-Y = 60;
-u = -50;
-Icircumflex = 42;
-A = -80;
-x = -50;
-O = -20;
-zero = -20;
-four = -50;
-Q = -10;
-seven = 30;
-z = -45;
-n = -40;
-six = -30;
-o = -60;
-T = 60;
-};
-exclamdown = {
-V = -30;
-W = -20;
-AE = -10;
-X = -40;
-Y = -30;
-};
-P = {
-z = -50;
-apostrophe = -24;
-f = -25;
-O = -45;
-ampersand = -22;
-h = -80;
-four = -11;
-Q = -30;
-guilsinglleft = -26;
-exclam = -30;
-eth = -18;
-j = -65;
-S = -50;
-guillemotleft = -60;
-period = -180;
-at = -50;
-T = -45;
-quotesinglbase = -86;
+S = -35;
+T = -90;
+V = -20;
+W = -15;
+X = -50;
+Y = -45;
+Z = -45;
+ampersand = -29;
+apostrophe = -18;
+asterisk = 10;
 braceright = -20;
-questiondown = -20;
-V = -25;
-n = -55;
-W = -20;
-o = -90;
-slash = -120;
-X = -80;
-A = -130;
-Y = -30;
-comma = -195;
-Z = -80;
-guillemotright = -40;
-s = -70;
-colon = -40;
-t = -40;
-germandbls = -5;
-exclamdown = -30;
-u = -70;
-icircumflex = 27;
-question = -20;
-hyphen = -40;
-AE = -65;
-I = -45;
-x = -50;
-J = -40;
-};
-Q = {
-comma = -40;
-question = -8;
-guillemotright = -20;
-V = -20;
-AE = -19;
-exclam = -30;
-W = -20;
-J = 40;
-X = -20;
-guillemotleft = -20;
-exclamdown = -30;
-Y = -50;
-apostrophe = -32;
-germandbls = 64;
-Z = -15;
-f = 9;
-period = -40;
-A = -20;
-j = 52;
-x = -10;
-questiondown = -8;
-z = -5;
-seven = -9;
-bracketright = 11;
-T = -17;
-};
-periodcentered = {
-V = -60;
-AE = -60;
-W = -30;
-s = -40;
-X = -80;
-f = -40;
-t = -20;
-Y = -60;
-u = -10;
-Z = -30;
-h = -20;
-i = -20;
-A = -40;
-j = -30;
-x = -60;
-l = -20;
-z = -40;
-n = -40;
-S = -40;
-o = -20;
-T = -60;
-b = -20;
-};
-R = {
-registered = -20;
-z = -10;
-apostrophe = -37;
-f = -20;
-O = -20;
-h = -40;
-Q = -20;
-i = -6;
-guilsinglleft = -13;
-exclam = -30;
-eth = -9;
-S = -30;
+bracketright = -25;
+bullet = -30;
+comma = -110;
+eth = -11;
+exclam = -20;
+exclamdown = -20;
+f = 15;
 guillemotleft = -50;
-T = -50;
-l = -6;
-U = -5;
-quotesinglbase = 10;
-bullet = -40;
-V = -35;
-n = -45;
-W = -20;
-o = -55;
-periodcentered = -40;
-slash = 50;
-Y = -40;
-comma = 40;
-asterisk = -40;
-Z = -10;
-guillemotright = -30;
-s = -40;
-t = -40;
-exclamdown = -30;
-backslash = -8;
-u = -50;
-hyphen = -70;
-I = -20;
-x = 15;
-J = 10;
+guilsinglleft = -33;
+hyphen = -10;
+o = -30;
+parenright = -50;
+period = -120;
+periodcentered = -30;
+question = -40;
+questiondown = -40;
+quotesinglbase = -43;
+registered = -20;
+slash = -60;
+t = 10;
+x = -10;
 };
-S = {
-asterisk = -40;
-comma = -40;
-V = -20;
-AE = -5;
-I = -10;
-W = -20;
-quoteright = -9;
-s = -20;
-X = -30;
-f = -30;
-apostrophe = -42;
-Y = -50;
-t = -50;
-u = -10;
-Z = -20;
-h = -30;
-hyphen = -30;
-A = -30;
-j = -30;
-one = -20;
-x = -35;
-slash = -30;
-z = -15;
-quoteleft = -50;
-bullet = -20;
-n = -40;
-S = -20;
-o = -20;
+registered = {
+A = -80;
+AE = -110;
+Q = -20;
 T = -40;
-periodcentered = -20;
+V = -40;
+W = -20;
+X = -80;
+Y = -60;
+Z = -80;
+x = -40;
+z = -20;
+};
+s = {
+I = -6;
+J = -6;
+M = -5;
+Q = -5;
+S = -20;
+T = -80;
+U = -8;
+V = -55;
+W = -40;
+X = -20;
+Y = -50;
+Z = -5;
+apostrophe = -33;
+asterisk = -30;
+backslash = -17;
+braceright = -20;
+bracketright = -25;
+bullet = -30;
+exclam = -20;
+exclamdown = -20;
+f = -15;
+guillemotleft = -20;
+hyphen = -40;
+o = -20;
+parenright = -30;
+period = -10;
+periodcentered = -30;
+question = -15;
+questiondown = -15;
+quoteleft = -25;
+quoteright = -30;
+registered = -10;
+t = -20;
+z = -10;
 };
 semicolon = {
 seven = -60;
 };
-exclam = {
-V = -30;
-W = -20;
-AE = -10;
-X = -40;
-Y = -30;
-};
-T = {
-registered = -20;
-z = -70;
-bracketright = 20;
-M = -9;
-f = -50;
-apostrophe = -34;
-O = -30;
-ampersand = -50;
-h = -40;
-four = -40;
-Q = -30;
-guilsinglleft = -53;
-guilsinglright = -53;
-eth = -65;
-j = -30;
-S = -20;
-guillemotleft = -80;
-five = -8;
-at = -70;
-T = -5;
-eight = -19;
-nine = -14;
-braceright = 10;
-bullet = -60;
-V = 40;
-n = -95;
-period = -100;
-W = 25;
-o = -80;
-periodcentered = -60;
-X = -20;
-one = -30;
-A = -80;
-Y = 25;
-quotesinglbase = -48;
-comma = -110;
-Z = -20;
-seven = 7;
-slash = -60;
-guillemotright = -60;
-s = -100;
-six = -34;
-colon = -70;
-t = -70;
-germandbls = -18;
-parenright = 10;
-semicolon = -44;
-u = -85;
-zero = -31;
-hyphen = -100;
-AE = -63;
-x = -100;
-};
-eth = {
-comma = -8;
-ampersand = -5;
-period = -11;
-x = -13;
-z = -4;
-quotesinglbase = -8;
-};
-U = {
-comma = -60;
-guillemotright = -20;
-eth = -8;
-AE = -13;
-guillemotleft = -20;
-period = -40;
-s = -11;
-apostrophe = -33;
-germandbls = -9;
-t = -30;
-u = -40;
-hyphen = -20;
-h = -8;
-i = -6;
-A = -60;
-j = -6;
-x = -6;
-quotesinglbase = -8;
-l = -8;
-slash = -80;
-z = -9;
-icircumflex = 5;
-n = -35;
-o = -25;
-T = -10;
-b = -7;
-};
-V = {
-registered = -40;
-z = -45;
-bracketright = 36;
-apostrophe = -26;
-f = -20;
-O = -45;
-ampersand = -32;
-h = -40;
-four = -25;
-Q = -30;
-guilsinglleft = -35;
-guilsinglright = -22;
-exclam = -30;
-eth = -39;
-j = -30;
-S = -30;
-guillemotleft = -55;
-period = -130;
-at = -70;
-quotesinglbase = -43;
-braceright = 21;
-bullet = -60;
-V = 25;
-n = -75;
-W = 10;
-o = -70;
-periodcentered = -60;
-X = -30;
-seven = 25;
-A = -100;
-Y = 10;
-slash = -80;
-comma = -170;
-Z = -20;
-guillemotright = -60;
-s = -70;
-six = -13;
+seven = {
+A = -34;
+V = 16;
+W = 9;
+Y = 7;
+bracketright = 12;
+cent = -14;
 colon = -80;
-t = -55;
-germandbls = -10;
-exclamdown = -30;
-semicolon = -10;
-u = -65;
-zero = -11;
-hyphen = -80;
-AE = -61;
-I = -10;
-x = -70;
-J = -10;
-};
-guillemotleft = {
-T = -50;
-};
-W = {
-registered = -20;
-z = -35;
-bracketright = 25;
-apostrophe = -26;
-f = -10;
-O = -25;
-ampersand = -21;
-h = -30;
-four = -14;
-Q = -10;
-guilsinglleft = -24;
-guilsinglright = -13;
-exclam = -20;
-eth = -33;
-j = -20;
-S = -25;
-guillemotleft = -55;
-period = -100;
-at = -30;
-T = 10;
-quotesinglbase = -31;
-braceright = 15;
-bullet = -30;
-V = 20;
-n = -60;
-W = 15;
-o = -60;
-periodcentered = -30;
-X = -20;
-seven = 17;
-A = -80;
-Y = 15;
-slash = -50;
-comma = -100;
-Z = -20;
-guillemotright = -60;
-s = -65;
-colon = -60;
-t = -35;
-germandbls = -8;
-exclamdown = -20;
-u = -35;
+comma = -130;
+five = -40;
+four = -60;
+fraction = -44;
 hyphen = -60;
-AE = -47;
-I = -10;
-x = -40;
-};
-hyphen = {
-three = -15;
-V = -50;
-AE = -80;
-W = -30;
-X = -90;
-f = -40;
-t = -30;
-Y = -60;
-two = -14;
-u = -10;
-Z = -80;
-h = -10;
-i = -10;
-A = -70;
-j = -10;
-one = -8;
-x = -80;
-l = -10;
-z = -60;
-seven = -100;
-n = -30;
-S = -80;
-o = -10;
-T = -110;
-b = -10;
-};
-questiondown = {
-x = -30;
-A = -60;
-AE = -70;
-z = -10;
-j = 30;
-f = 10;
-s = -15;
-};
-X = {
-registered = -60;
-bracketright = 6;
-apostrophe = -35;
-f = -30;
-O = -45;
-ampersand = -6;
-h = -20;
-four = -13;
-Q = -45;
-guilsinglleft = -22;
-exclam = -40;
-eth = -17;
-j = -15;
-S = -20;
-guillemotleft = -60;
-at = -20;
-T = -20;
-bullet = -80;
-n = -40;
-o = -45;
-periodcentered = -80;
-one = -11;
-A = 10;
-asterisk = -40;
-comma = -20;
-Z = -20;
-guillemotright = -20;
-s = -30;
-six = -9;
-t = -40;
-exclamdown = -40;
-u = -35;
-zero = -9;
-hyphen = -80;
-x = 10;
-};
-apostrophe = {
-o = -63;
-h = -35;
-x = -33;
-i = -33;
-b = -35;
-j = -33;
-z = -40;
-s = -57;
-l = -35;
-t = -37;
-u = -46;
-f = -38;
-n = -44;
-};
-backslash = {
-Q = -10;
-Y = -42;
-J = 60;
-x = 40;
-j = 80;
-germandbls = 30;
-T = -43;
-U = -15;
-quoteright = -32;
-t = -9;
-V = -41;
-one = -29;
-f = 35;
-W = -31;
-O = -10;
-quotesingle = -33;
-};
-Y = {
-asterisk = -10;
-S = -40;
-guillemotleft = -90;
-zero = -23;
-T = 10;
-V = 10;
-AE = -68;
-W = 10;
-X = -20;
-Y = 15;
-registered = -60;
-eth = -59;
-Z = -20;
-guillemotright = -60;
-periodcentered = -80;
-hyphen = -90;
-four = -35;
-colon = -100;
-braceright = 20;
-exclamdown = -30;
-f = -45;
-h = -60;
-bullet = -80;
-quotesinglbase = -52;
-guilsinglright = -31;
-j = -30;
-apostrophe = -33;
-A = -100;
-guilsinglleft = -51;
-seven = 21;
-period = -100;
-n = -100;
-bracketright = 31;
-o = -95;
-at = -80;
-semicolon = -21;
-ampersand = -45;
-s = -80;
-I = -20;
-t = -70;
-J = -20;
-u = -85;
-comma = -160;
-eight = -14;
-M = -7;
-x = -95;
-exclam = -30;
-six = -27;
-O = -55;
-germandbls = -15;
-z = -65;
-Q = -50;
-slash = -60;
-};
-Z = {
-registered = -40;
-z = -15;
-f = -60;
-apostrophe = -39;
-O = -30;
-h = -30;
-four = -46;
-Q = -20;
-guilsinglleft = -36;
-eth = -14;
-j = -30;
-S = -20;
-guillemotleft = -60;
-at = -20;
-T = -30;
-bullet = -30;
-V = -20;
-n = -50;
-W = -15;
-o = -60;
-slash = -30;
-X = -20;
-periodcentered = -30;
-A = -30;
-Y = -20;
-asterisk = -10;
-guillemotright = -20;
-s = -50;
-six = -10;
-t = -60;
-germandbls = -6;
-u = -50;
-zero = -9;
-hyphen = -120;
-I = -15;
-x = -15;
-};
-guillemotright = {
-X = -20;
-Y = -50;
-x = -35;
-Z = -20;
-S = -23;
-z = -20;
-T = -50;
-s = -20;
-quoteright = -35;
-t = -15;
-quotesingle = -36;
-V = -35;
-f = -15;
-W = -25;
-};
-minus = {
-one = -11;
-two = -25;
-three = -12;
-seven = -28;
-};
-quotesingle = {
-A = -40;
-guillemotleft = -36;
-o = -22;
-period = -96;
-quotesinglbase = -96;
-AE = -57;
-ampersand = -25;
-comma = -96;
-at = -17;
-s = -11;
-eth = -29;
-guilsinglleft = -36;
-slash = -33;
+period = -130;
+plus = -13;
+semicolon = -30;
+six = -30;
+slash = -80;
 };
 six = {
+T = -8;
 one = -8;
 quotesingle = -8;
-T = -8;
 };
-bracketleft = {
-V = 36;
-AE = -8;
-eth = -25;
-W = 25;
-J = 56;
-X = 5;
-s = -25;
-germandbls = 60;
-Y = 31;
-t = -20;
-u = -30;
-eight = -11;
-A = -15;
-j = 35;
-O = -19;
-one = -11;
-x = -30;
-four = -15;
-zero = -17;
-Q = -19;
-seven = 20;
-z = -30;
-n = -20;
-six = -19;
-o = -20;
-};
-a = {
-U = -15;
-asterisk = -20;
-guillemotright = -10;
-V = -40;
-question = -10;
-I = -8;
-exclam = -10;
-W = -10;
-J = -8;
-X = -25;
-exclamdown = -10;
-apostrophe = -40;
-Y = -55;
-guillemotleft = -30;
-quoteright = -20;
-hyphen = -20;
-quotesingle = -11;
-M = -6;
-registered = -10;
-t = -10;
-O = -8;
-ampersand = -6;
-questiondown = -10;
-Q = -8;
-quoteleft = -8;
-backslash = -28;
-bullet = -10;
-bracketright = -10;
-S = -20;
-n = -10;
-periodcentered = -10;
-T = -65;
-};
-registered = {
-Q = -20;
-Z = -80;
-V = -40;
-x = -40;
+slash = {
 A = -80;
-W = -20;
-AE = -110;
-z = -20;
-X = -80;
-T = -40;
-Y = -60;
-};
-c = {
-asterisk = -10;
-comma = -20;
-question = -15;
-V = -20;
-eth = -9;
-exclam = -10;
-W = -10;
-guillemotleft = -29;
-X = -20;
-exclamdown = -10;
-apostrophe = -25;
-Y = -50;
-germandbls = -25;
-s = -10;
-hyphen = -20;
-registered = -10;
-t = -10;
-u = -15;
-O = -8;
-ampersand = -16;
-questiondown = -15;
-guilsinglleft = -29;
-Q = -8;
-braceright = 10;
-bullet = -20;
-S = -20;
-o = -15;
-T = -60;
-periodcentered = -20;
-};
-d = {
-Q = -8;
-M = -6;
-I = -9;
-ampersand = -7;
-J = -9;
-O = -8;
-apostrophe = -40;
-T = -10;
-U = -13;
-};
-e = {
-U = -9;
-asterisk = -10;
-comma = -40;
-V = -40;
-guillemotright = -10;
-I = -6;
-exclam = -20;
-W = -20;
-J = -6;
-X = -30;
-exclamdown = -20;
-apostrophe = -37;
-Y = -50;
-germandbls = -25;
-guillemotleft = -20;
-Z = -20;
-hyphen = -20;
-M = -5;
-parenright = -30;
-question = -15;
-s = -10;
-t = -20;
-u = -5;
-ampersand = -9;
-questiondown = -15;
-backslash = -20;
-bullet = -10;
-bracketright = -20;
-S = -20;
-periodcentered = -10;
-T = -60;
-};
-germandbls = {
-asterisk = -11;
-quotesingle = -10;
+AE = -46;
+Icircumflex = 42;
+O = -20;
+Q = -10;
+T = 60;
+V = 60;
+W = 55;
+Y = 60;
+eth = -31;
+four = -50;
+n = -40;
+o = -60;
+s = -60;
+seven = 30;
+six = -30;
 t = -25;
-quoteright = -14;
-x = -10;
-quoteleft = -10;
-f = -15;
+u = -50;
+x = -50;
+z = -45;
+zero = -20;
 };
-plus = {
-one = -10;
-two = -29;
-three = -19;
-seven = -38;
-};
-f = {
-registered = -10;
-z = -25;
-bracketright = 20;
-apostrophe = -18;
-ampersand = -20;
-i = -10;
-guilsinglleft = -24;
-exclam = -20;
-eth = -11;
-period = -70;
-S = -20;
-guillemotleft = -50;
-T = -45;
-quotesinglbase = -50;
-questiondown = -40;
-braceright = 50;
-V = 30;
-bullet = -50;
-n = -30;
-W = 35;
-o = -35;
-periodcentered = -50;
-X = 5;
-slash = -20;
-A = -21;
-comma = -80;
-Z = -20;
-guillemotright = -20;
-quotesingle = 20;
-s = -40;
-t = -45;
-germandbls = -30;
-exclamdown = -20;
-backslash = 45;
-u = -35;
-question = 20;
-hyphen = -40;
-I = -10;
-x = -30;
-quoteleft = 20;
+t = {
+A = 5;
+Q = -5;
+S = -10;
+T = -65;
+V = -30;
+W = -15;
+Y = -40;
+apostrophe = -27;
+asterisk = -20;
+braceright = -5;
+bracketright = -10;
+bullet = -40;
+exclam = -30;
+exclamdown = -30;
+germandbls = -10;
+guillemotleft = -45;
+guilsinglleft = -26;
+hyphen = -50;
+o = -30;
+periodcentered = -40;
+question = -10;
+quoteright = -20;
+registered = -30;
+s = -10;
+u = -10;
+x = 10;
 };
 three = {
-backslash = -9;
+T = -18;
 V = -10;
+Y = -16;
+backslash = -9;
+braceright = -16;
 bracketright = -10;
 parenright = -18;
 slash = -10;
-braceright = -16;
-T = -18;
-Y = -16;
-};
-g = {
-quoteleft = -20;
-registered = -10;
-bracketright = -15;
-M = -6;
-f = 15;
-apostrophe = -38;
-O = -7;
-ampersand = -7;
-Q = -7;
-j = 45;
-S = -15;
-guillemotleft = -20;
-T = -70;
-U = -13;
-questiondown = -10;
-braceright = 20;
-V = -50;
-bullet = -30;
-n = -10;
-W = -40;
-o = -10;
-periodcentered = -30;
-X = -10;
-slash = 5;
-Y = -60;
-asterisk = -30;
-guillemotright = -10;
-quotesingle = -8;
-s = -15;
-quoteright = -20;
-t = -30;
-germandbls = 40;
-backslash = -60;
-question = -30;
-hyphen = -20;
-I = -9;
-J = 30;
-};
-parenright = {
-braceright = -9;
-};
-i = {
-U = -15;
-asterisk = -30;
-guillemotright = -20;
-V = -7;
-eth = -4;
-I = -8;
-W = -8;
-question = -10;
-guillemotleft = -20;
-J = -8;
-f = -4;
-apostrophe = -43;
-Y = -8;
-quoteright = -30;
-quotesingle = -8;
-hyphen = -15;
-t = -4;
-M = -5;
-O = -10;
-ampersand = -6;
-guilsinglleft = -8;
-Q = -10;
-quoteleft = -10;
-bullet = -40;
-periodcentered = -40;
-T = -13;
-};
-at = {
-quotesingle = -8;
-Z = -20;
-V = -30;
-A = -10;
-AE = -30;
-S = -20;
-X = -20;
-T = -70;
-Y = -30;
-};
-Thorn = {
-A = -14;
-X = -46;
-braceright = -22;
-Y = -17;
-period = -34;
-x = -10;
-Z = -31;
-quotesinglbase = -35;
-AE = -50;
-T = -45;
-comma = -35;
-bracketright = -25;
-parenright = -32;
-questiondown = -20;
-V = -8;
-backslash = -10;
-question = -20;
-slash = -20;
-};
-j = {
-U = -7;
-asterisk = -10;
-comma = -30;
-V = 15;
-guillemotright = -10;
-I = -7;
-exclam = -10;
-W = 10;
-J = -7;
-X = -10;
-exclamdown = -10;
-apostrophe = -35;
-guillemotleft = -10;
-period = -30;
-quoteright = -20;
-Z = -20;
-M = -7;
-O = -5;
-ampersand = -6;
-Q = -5;
-bullet = -20;
-S = -30;
-periodcentered = -20;
-T = -10;
-};
-quoteleft = {
-A = -90;
-X = -30;
-o = -30;
-Y = 40;
-period = -115;
-i = -10;
-x = -20;
-j = -20;
-z = -10;
-AE = -80;
-T = 20;
-comma = -112;
-germandbls = -11;
-questiondown = -150;
-s = -20;
-V = 50;
-eth = -33;
-u = -10;
-W = 50;
-};
-k = {
-quoteleft = -20;
-registered = -20;
-z = -10;
-bracketright = -20;
-M = -6;
-apostrophe = -40;
-O = -6;
-ampersand = -12;
-Q = -6;
-guilsinglleft = -10;
-exclam = -60;
-j = 10;
-period = -20;
-S = -40;
-guillemotleft = -40;
-T = -80;
-l = -30;
-U = -12;
-bullet = -20;
-V = -40;
-n = -25;
-W = -30;
-o = -25;
-periodcentered = -20;
-X = -10;
-slash = 45;
-Y = -50;
-asterisk = -30;
-comma = 40;
-Z = -20;
-guillemotright = -20;
-quotesingle = -9;
-s = -15;
-t = -35;
-germandbls = 15;
-exclamdown = -60;
-backslash = -22;
-semicolon = 10;
-u = -20;
-question = -30;
-hyphen = -10;
-I = -8;
-J = -8;
-};
-l = {
-asterisk = -50;
-U = -18;
-V = -15;
-quoteright = -30;
-W = -15;
-guillemotleft = -13;
-f = -10;
-apostrophe = -49;
-Y = -17;
-quotesingle = -20;
-t = -25;
-hyphen = -45;
-registered = -30;
-O = -12;
-guilsinglleft = -13;
-Q = -12;
-quoteleft = -20;
-bullet = -40;
-n = -20;
-o = -15;
-periodcentered = -40;
-T = -22;
-};
-comma = {
-U = -40;
-V = -140;
-quoteright = -150;
-W = -90;
-f = -20;
-quotesingle = -96;
-Y = -140;
-t = -80;
-u = -40;
-h = -30;
-i = -40;
-j = -20;
-one = -30;
-O = -40;
-l = -40;
-Q = -40;
-seven = -30;
-quoteleft = -150;
-n = -30;
-S = -10;
-o = -40;
-T = -100;
-};
-n = {
-asterisk = -20;
-question = -10;
-V = -35;
-quoteright = -25;
-I = -8;
-W = -20;
-X = -10;
-apostrophe = -43;
-Y = -50;
-quotesingle = -16;
-t = -20;
-Z = -10;
-M = -7;
-ampersand = -5;
-questiondown = -10;
-Q = -5;
-quoteleft = -25;
-backslash = -29;
-S = -10;
-T = -60;
-};
-o = {
-U = -8;
-asterisk = -20;
-comma = -10;
-V = -40;
-question = -10;
-quoteright = -17;
-W = -20;
-J = -8;
-X = -20;
-period = -25;
-apostrophe = -46;
-Y = -50;
-quotesingle = -19;
-t = -10;
-Z = -15;
-M = -7;
-A = -6;
-x = -25;
-questiondown = -10;
-z = -10;
-quoteleft = -19;
-backslash = -30;
-S = -25;
-T = -55;
-};
-fraction = {
-six = -11;
-four = -25;
-seven = 12;
-zero = -10;
-};
-braceleft = {
-b = -40;
-z = -40;
-M = -10;
-O = -10;
-h = -40;
-four = -18;
-Icircumflex = 47;
-i = -40;
-Q = -30;
-eth = -24;
-j = 10;
-S = -10;
-T = 10;
-l = -40;
-eight = -15;
-V = 21;
-n = -50;
-W = 15;
-o = -50;
-one = -13;
-A = -50;
-Y = 20;
-s = -60;
-six = -21;
-t = -60;
-germandbls = 53;
-u = -60;
-parenleft = -9;
-zero = -20;
-x = -40;
-AE = -50;
-I = -20;
-J = 10;
-};
-q = {
-U = -10;
-question = -30;
-V = -40;
-quoteright = -10;
-I = -8;
-W = -25;
-J = -5;
-X = -25;
-apostrophe = -36;
-Y = -50;
-Z = -30;
-M = -7;
-j = 15;
-ampersand = -5;
-questiondown = -30;
-Q = -5;
-backslash = -23;
-bracketright = -10;
-S = -40;
-T = -80;
-};
-r = {
-registered = -20;
-bracketright = -25;
-M = -8;
-apostrophe = -18;
-f = 15;
-ampersand = -29;
-guilsinglleft = -33;
-exclam = -20;
-eth = -11;
-period = -120;
-S = -35;
-guillemotleft = -50;
-T = -90;
-quotesinglbase = -43;
-questiondown = -40;
-braceright = -20;
-V = -20;
-bullet = -30;
-W = -15;
-o = -30;
-periodcentered = -30;
-X = -50;
-slash = -60;
-A = -38;
-Y = -45;
-asterisk = 10;
-comma = -110;
-Z = -45;
-t = 10;
-parenright = -50;
-exclamdown = -20;
-question = -40;
-hyphen = -10;
-I = -5;
-x = -10;
-J = -5;
-};
-s = {
-quoteleft = -25;
-registered = -10;
-z = -10;
-bracketright = -25;
-M = -5;
-apostrophe = -33;
-f = -15;
-Q = -5;
-exclam = -20;
-period = -10;
-S = -20;
-guillemotleft = -20;
-T = -80;
-U = -8;
-questiondown = -15;
-braceright = -20;
-V = -55;
-bullet = -30;
-W = -40;
-o = -20;
-periodcentered = -30;
-X = -20;
-Y = -50;
-asterisk = -30;
-Z = -5;
-quoteright = -30;
-t = -20;
-parenright = -30;
-exclamdown = -20;
-backslash = -17;
-question = -15;
-hyphen = -40;
-I = -6;
-J = -6;
-};
-nine = {
-A = -8;
-X = -14;
-braceright = -20;
-Y = -22;
-Z = -13;
-T = -28;
-seven = -9;
-bracketright = -16;
-parenright = -26;
-V = -10;
-backslash = -10;
-fraction = -15;
-slash = -20;
-};
-seven = {
-A = -34;
-slash = -80;
-Y = 7;
-period = -130;
-four = -60;
-semicolon = -30;
-six = -30;
-comma = -130;
-bracketright = 12;
-plus = -13;
-five = -40;
-V = 16;
-colon = -80;
-hyphen = -60;
-W = 9;
-cent = -14;
-fraction = -44;
-};
-t = {
-asterisk = -20;
-question = -10;
-V = -30;
-quoteright = -20;
-exclam = -30;
-W = -15;
-guillemotleft = -45;
-s = -10;
-exclamdown = -30;
-apostrophe = -27;
-Y = -40;
-germandbls = -10;
-u = -10;
-hyphen = -50;
-registered = -30;
-A = 5;
-x = 10;
-guilsinglleft = -26;
-Q = -5;
-braceright = -5;
-bracketright = -10;
-S = -10;
-bullet = -40;
-o = -30;
-T = -65;
-periodcentered = -40;
 };
 two = {
 A = 5;
@@ -23601,2130 +23498,2130 @@ T = -11;
 Y = -9;
 };
 u = {
-U = -14;
-asterisk = -15;
-question = -20;
-V = -40;
-parenright = -30;
-quoteright = -30;
-exclam = -10;
-W = -20;
 J = -8;
+M = -6;
+Q = -8;
+S = -20;
+T = -75;
+U = -14;
+V = -40;
+W = -20;
 X = -10;
-exclamdown = -10;
-apostrophe = -39;
 Y = -55;
+ampersand = -6;
+apostrophe = -39;
+asterisk = -15;
+backslash = -25;
+braceright = -20;
+bracketright = -25;
+bullet = -20;
+exclam = -10;
+exclamdown = -10;
 f = -15;
 germandbls = -10;
 guillemotleft = -30;
 hyphen = -20;
-M = -6;
+parenright = -30;
+periodcentered = -20;
+question = -20;
+questiondown = -20;
+quoteleft = -20;
+quoteright = -30;
 quotesingle = -8;
 registered = -10;
-ampersand = -6;
-questiondown = -20;
-Q = -8;
-quoteleft = -20;
-backslash = -25;
-braceright = -20;
-bracketright = -25;
-S = -20;
-bullet = -20;
-periodcentered = -20;
-T = -75;
-};
-equal = {
-seven = -24;
 };
 v = {
-asterisk = -10;
-comma = -40;
-question = -25;
-V = -30;
-parenright = -20;
-exclam = -20;
-W = -10;
-J = -8;
-X = -30;
-exclamdown = -20;
-apostrophe = -31;
-Y = -35;
-germandbls = -20;
-period = -40;
-Z = -20;
 A = -12;
-quotesinglbase = -11;
-ampersand = -7;
-questiondown = -35;
-slash = -10;
-backslash = -14;
-bracketright = -30;
+J = -8;
 S = -30;
 T = -65;
+V = -30;
+W = -10;
+X = -30;
+Y = -35;
+Z = -20;
+ampersand = -7;
+apostrophe = -31;
+asterisk = -10;
+backslash = -14;
+bracketright = -30;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -20;
+parenright = -20;
+period = -40;
+question = -25;
+questiondown = -35;
+quotesinglbase = -11;
+slash = -10;
 };
 w = {
-asterisk = -10;
-comma = -40;
-question = -25;
-V = -30;
-parenright = -20;
-exclam = -20;
-W = -10;
-J = -8;
-X = -30;
-exclamdown = -20;
-apostrophe = -31;
-Y = -35;
-germandbls = -20;
-period = -40;
-Z = -20;
 A = -12;
-quotesinglbase = -11;
-ampersand = -7;
-questiondown = -35;
-slash = -10;
-backslash = -14;
-bracketright = -30;
+J = -8;
 S = -30;
 T = -65;
-};
-ampersand = {
-Q = -6;
-f = -18;
-V = -45;
-quoteright = -35;
-quotesingle = -37;
-W = -29;
-t = -19;
-T = -45;
-n = -5;
-Y = -45;
-U = -7;
-};
-eight = {
-backslash = -9;
-V = -8;
-bracketright = -11;
-parenright = -18;
-braceright = -15;
-T = -19;
-Y = -15;
+V = -30;
+W = -10;
+X = -30;
+Y = -35;
+Z = -20;
+ampersand = -7;
+apostrophe = -31;
+asterisk = -10;
+backslash = -14;
+bracketright = -30;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -20;
+parenright = -20;
+period = -40;
+question = -25;
+questiondown = -35;
+quotesinglbase = -11;
+slash = -10;
 };
 x = {
-U = -10;
-question = -10;
-guillemotright = -20;
-V = -50;
-eth = -12;
-quoteright = -20;
-W = -20;
-guillemotleft = -50;
-X = 10;
-period = -10;
-apostrophe = -27;
-Y = -55;
-u = -10;
-Z = -10;
-hyphen = -40;
-registered = -40;
 O = -11;
-ampersand = -13;
-questiondown = -10;
 Q = -11;
-bullet = -40;
-bracketright = -20;
 S = -25;
-o = -25;
 T = -90;
+U = -10;
+V = -50;
+W = -20;
+X = 10;
+Y = -55;
+Z = -10;
+ampersand = -13;
+apostrophe = -27;
+bracketright = -20;
+bullet = -40;
+eth = -12;
+guillemotleft = -50;
+guillemotright = -20;
+hyphen = -40;
+o = -25;
+period = -10;
 periodcentered = -40;
+question = -10;
+questiondown = -10;
+quoteright = -20;
+registered = -40;
+u = -10;
 };
 y = {
-bracketright = -20;
-M = -6;
-f = 20;
-apostrophe = -36;
-O = -7;
-ampersand = -6;
-Q = -7;
-j = 35;
-S = -20;
-guillemotleft = -20;
-T = -75;
-U = -13;
-questiondown = -15;
-braceright = -15;
-V = -45;
-bullet = -10;
-n = -10;
-W = -20;
-o = -15;
-periodcentered = -10;
-X = -10;
-Y = -50;
-asterisk = -30;
-Z = -20;
-quoteright = -20;
-t = -30;
-parenright = -15;
-germandbls = 30;
-backslash = -23;
-u = -10;
-question = -15;
 I = -9;
 J = 25;
+M = -6;
+O = -7;
+Q = -7;
+S = -20;
+T = -75;
+U = -13;
+V = -45;
+W = -20;
+X = -10;
+Y = -50;
+Z = -20;
+ampersand = -6;
+apostrophe = -36;
+asterisk = -30;
+backslash = -23;
+braceright = -15;
+bracketright = -20;
+bullet = -10;
+f = 20;
+germandbls = 30;
+guillemotleft = -20;
+j = 35;
+n = -10;
+o = -15;
+parenright = -15;
+periodcentered = -10;
+question = -15;
+questiondown = -15;
+quoteright = -20;
+t = -30;
+u = -10;
 };
 z = {
-registered = -20;
-z = 30;
-bracketright = -25;
+A = 40;
+I = -6;
+J = -6;
 M = -5;
-apostrophe = -30;
 O = -7;
-ampersand = -8;
 Q = -7;
-guilsinglleft = -26;
-eth = -6;
-period = 20;
 S = 5;
-guillemotleft = -50;
 T = -60;
 U = -10;
-bullet = -40;
 V = -25;
 W = -15;
-o = -10;
-slash = 10;
 X = 20;
-periodcentered = -40;
-A = 40;
 Y = -30;
 Z = 10;
+ampersand = -8;
+apostrophe = -30;
+backslash = -11;
+bracketright = -25;
+bullet = -40;
+eth = -6;
+guillemotleft = -50;
+guilsinglleft = -26;
+hyphen = -60;
+o = -10;
+period = 20;
+periodcentered = -40;
+question = -11;
 quoteright = -10;
+registered = -20;
+slash = 10;
 t = -20;
 u = -20;
-backslash = -11;
-question = -11;
-hyphen = -60;
-I = -6;
 x = 35;
-J = -6;
+z = 30;
+};
+zero = {
+T = -27;
+V = -10;
+X = -12;
+Y = -21;
+Z = -12;
+backslash = -10;
+braceright = -19;
+bracketright = -15;
+fraction = -13;
+parenright = -25;
+seven = -55;
+slash = -10;
 };
 };
 "A97BF1D1-A3CC-43F5-9A06-B7BB37BB129E" = {
 A = {
-U = -20;
-asterisk = -60;
-comma = 30;
-V = -45;
-AE = 20;
-quoteright = -80;
-W = -20;
-period = 30;
-X = 20;
-f = -12;
-apostrophe = -63;
-Y = -25;
-quotesingle = -40;
-t = -16;
-hyphen = -50;
-Z = 20;
-registered = -80;
-two = 7;
 A = 20;
+AE = 20;
 O = -25;
-one = -31;
 Q = -25;
-seven = -12;
-quoteleft = -40;
-backslash = -40;
-bullet = -40;
-bracketright = -14;
-slash = 10;
-z = 40;
-periodcentered = -40;
 T = -40;
+U = -20;
+V = -45;
+W = -20;
+X = 20;
+Y = -25;
+Z = 20;
+apostrophe = -63;
+asterisk = -60;
+backslash = -40;
+bracketright = -14;
+bullet = -40;
+comma = 30;
+f = -12;
+hyphen = -50;
+one = -31;
+period = 30;
+periodcentered = -40;
+quoteleft = -40;
+quoteright = -80;
+quotesingle = -40;
+registered = -80;
+seven = -12;
+slash = 10;
+t = -16;
+two = 7;
+z = 40;
+};
+B = {
+AE = -10;
+S = -20;
+T = -20;
+V = -5;
+W = -10;
+X = -9;
+Y = -10;
+Z = -10;
+apostrophe = -31;
+asterisk = -30;
+braceright = -15;
+bracketright = -14;
+comma = -40;
+f = -5;
+parenright = -15;
+s = -8;
+seven = -8;
+slash = -20;
+t = -5;
+x = -12;
+z = -6;
+};
+C = {
+O = -13;
+Q = -25;
+V = 5;
+W = 10;
+apostrophe = -31;
+asterisk = -10;
+at = -10;
+braceright = 10;
+bullet = -40;
+eth = -14;
+exclam = -30;
+exclamdown = -30;
+four = -44;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -36;
+hyphen = -80;
+n = -6;
+o = -45;
+one = -8;
+periodcentered = -40;
+registered = -40;
+six = -9;
+t = -5;
+u = -14;
+};
+D = {
+A = -40;
+AE = -25;
+T = -60;
+V = -30;
+W = -10;
+X = -40;
+Y = -30;
+Z = -20;
+apostrophe = -31;
+backslash = -8;
+braceright = -20;
+bracketright = -17;
+comma = -40;
+exclam = -10;
+exclamdown = -10;
+parenright = -10;
+period = -20;
+question = -10;
+questiondown = -10;
+seven = -10;
+slash = -11;
+three = -8;
+two = -9;
+x = -11;
+z = -5;
+};
+E = {
+O = -8;
+Q = -8;
+apostrophe = -37;
+eth = -11;
+f = -6;
+four = -29;
+guillemotleft = -50;
+guilsinglleft = -23;
+hyphen = -40;
+n = -5;
+o = -40;
+one = -23;
+t = -7;
+u = -8;
+};
+F = {
+A = -80;
+AE = -80;
+I = -30;
+J = -20;
+O = -20;
+Q = -40;
+S = -20;
+T = 20;
+V = 25;
+W = 20;
+X = -20;
+Y = 20;
+ampersand = -32;
+apostrophe = -29;
+at = -40;
+braceright = 10;
+bracketright = 8;
+colon = -40;
+comma = -150;
+eight = -10;
+eth = -28;
+exclam = -20;
+exclamdown = -20;
+f = -40;
+four = -17;
+germandbls = -10;
+guillemotleft = -50;
+guillemotright = -40;
+guilsinglleft = -26;
+guilsinglright = -20;
+h = -35;
+icircumflex = 53;
+idieresis = 27;
+igrave = 6;
+j = -45;
+n = -80;
+o = -60;
+one = -16;
+parenright = 12;
+period = -140;
+quotesinglbase = -72;
+s = -80;
+semicolon = -16;
+seven = 5;
+six = -10;
+slash = -44;
+t = -60;
+u = -80;
+x = -90;
+z = -60;
+zero = -8;
+};
+G = {
+Q = -20;
+T = -10;
+V = -20;
+W = -10;
+Y = -10;
+apostrophe = -51;
+braceright = 10;
+f = -11;
+n = -5;
+one = -30;
+quoteleft = -16;
+quoteright = -23;
+quotesingle = -12;
+registered = -20;
+t = -11;
+};
+I = {
+A = -45;
+Q = -20;
+S = -20;
+T = -10;
+apostrophe = -35;
+b = -6;
+eth = -7;
+germandbls = -6;
+guillemotleft = -30;
+guillemotright = -20;
+h = -6;
+i = -6;
+icircumflex = 1;
+j = -6;
+l = -7;
+n = -6;
+o = -40;
+s = -6;
+slash = -30;
+u = -20;
+z = -5;
+};
+J = {
+A = -40;
+S = -20;
+Z = -20;
+apostrophe = -35;
+asterisk = -15;
+b = -6;
+comma = -30;
+eth = -7;
+exclam = -20;
+exclamdown = -20;
+germandbls = -6;
+guillemotleft = -30;
+guillemotright = -40;
+h = -6;
+i = -6;
+icircumflex = 1;
+j = -6;
+l = -7;
+n = -30;
+o = -7;
+period = -20;
+s = -6;
+u = -8;
+z = -5;
+};
+K = {
+I = -20;
+J = 10;
+O = -30;
+Q = -50;
+S = -20;
+W = -10;
+Y = 10;
+ampersand = -6;
+apostrophe = -37;
+asterisk = -40;
+bullet = -60;
+colon = -40;
+comma = 30;
+eth = -15;
+exclam = -50;
+exclamdown = -50;
+f = -20;
+four = -17;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -23;
+h = -30;
+hyphen = -80;
+icircumflex = 7;
+j = 20;
+n = -50;
+o = -60;
+periodcentered = -60;
+registered = -60;
+s = -40;
+semicolon = 10;
+six = -8;
+slash = 35;
+t = -55;
+two = 6;
+u = -55;
+x = 15;
+z = -10;
+};
+L = {
+A = 20;
+AE = 16;
+I = -10;
+J = -10;
+O = -50;
+Q = -50;
+S = -5;
+T = -60;
+U = -14;
+V = -80;
+W = -70;
+X = 20;
+Y = -80;
+apostrophe = -87;
+asterisk = -100;
+at = 5;
+backslash = -53;
+braceright = -20;
+bracketright = -18;
+bullet = -80;
+eth = -5;
+exclam = -20;
+exclamdown = -20;
+f = -45;
+four = -59;
+guillemotleft = -30;
+guillemotright = -20;
+guilsinglleft = -30;
+h = -20;
+hyphen = -115;
+j = -10;
+n = -30;
+nine = -8;
+o = -40;
+one = -41;
+parenright = -10;
+periodcentered = -80;
+quoteleft = -80;
+quoteright = -90;
+quotesingle = -64;
+registered = -80;
+s = 10;
+seven = -15;
+six = -9;
+t = -65;
+u = -30;
+x = 35;
+z = 15;
+zero = -8;
+};
+M = {
+Q = -15;
+T = -9;
+Y = -7;
+apostrophe = -38;
+b = -6;
+braceright = -10;
+eth = -6;
+exclam = -10;
+exclamdown = -10;
+f = -6;
+germandbls = -6;
+h = -6;
+i = -6;
+j = -6;
+l = -6;
+n = -6;
+o = -6;
+slash = -20;
+t = -6;
+u = -7;
+};
+O = {
+A = -60;
+AE = -25;
+S = -20;
+T = -25;
+V = -30;
+W = -10;
+X = -55;
+Y = -35;
+Z = -20;
+apostrophe = -31;
+braceright = -10;
+bracketright = -15;
+comma = -80;
+guillemotleft = -10;
+guillemotright = -20;
+n = -30;
+o = -20;
+period = -15;
+question = -10;
+questiondown = -10;
+s = -40;
+seven = -9;
+slash = -40;
+two = -8;
+u = -20;
+x = -11;
+z = -5;
+};
+P = {
+A = -130;
+AE = -65;
+I = -45;
+J = -40;
+O = -45;
+Q = -30;
+S = -50;
+T = -45;
+V = -25;
+W = -20;
+X = -80;
+Y = -30;
+Z = -80;
+ampersand = -22;
+apostrophe = -24;
+at = -50;
+braceright = -20;
+colon = -40;
+comma = -195;
+eth = -18;
+exclam = -30;
+exclamdown = -30;
+f = -25;
+four = -11;
+germandbls = -5;
+guillemotleft = -60;
+guillemotright = -40;
+guilsinglleft = -26;
+h = -80;
+hyphen = -40;
+icircumflex = 27;
+j = -65;
+n = -55;
+o = -90;
+period = -180;
+question = -20;
+questiondown = -20;
+quotesinglbase = -86;
+s = -70;
+slash = -120;
+t = -40;
+u = -70;
+x = -50;
+z = -50;
+};
+Q = {
+A = -20;
+AE = -19;
+J = 40;
+T = -17;
+V = -20;
+W = -20;
+X = -20;
+Y = -50;
+Z = -15;
+apostrophe = -32;
+bracketright = 11;
+comma = -40;
+exclam = -30;
+exclamdown = -30;
+f = 9;
+germandbls = 64;
+guillemotleft = -20;
+guillemotright = -20;
+j = 52;
+period = -40;
+question = -8;
+questiondown = -8;
+seven = -9;
+x = -10;
+z = -5;
+};
+R = {
+I = -20;
+J = 10;
+O = -20;
+Q = -20;
+S = -30;
+T = -50;
+U = -5;
+V = -35;
+W = -20;
+Y = -40;
+Z = -10;
+apostrophe = -37;
+asterisk = -40;
+backslash = -8;
+bullet = -40;
+comma = 40;
+eth = -9;
+exclam = -30;
+exclamdown = -30;
+f = -20;
+guillemotleft = -50;
+guillemotright = -30;
+guilsinglleft = -13;
+h = -40;
+hyphen = -70;
+i = -6;
+l = -6;
+n = -45;
+o = -55;
+periodcentered = -40;
+quotesinglbase = 10;
+registered = -20;
+s = -40;
+slash = 50;
+t = -40;
+u = -50;
+x = 15;
+z = -10;
+};
+S = {
+A = -30;
+AE = -5;
+I = -10;
+S = -20;
+T = -40;
+V = -20;
+W = -20;
+X = -30;
+Y = -50;
+Z = -20;
+apostrophe = -42;
+asterisk = -40;
+bullet = -20;
+comma = -40;
+f = -30;
+h = -30;
+hyphen = -30;
+j = -30;
+n = -40;
+o = -20;
+one = -20;
+periodcentered = -20;
+quoteleft = -50;
+quoteright = -9;
+s = -20;
+slash = -30;
+t = -50;
+u = -10;
+x = -35;
+z = -15;
+};
+T = {
+A = -80;
+AE = -63;
+M = -9;
+O = -30;
+Q = -30;
+S = -20;
+T = -5;
+V = 40;
+W = 25;
+X = -20;
+Y = 25;
+Z = -20;
+ampersand = -50;
+apostrophe = -34;
+at = -70;
+braceright = 10;
+bracketright = 20;
+bullet = -60;
+colon = -70;
+comma = -110;
+eight = -19;
+eth = -65;
+f = -50;
+five = -8;
+four = -40;
+germandbls = -18;
+guillemotleft = -80;
+guillemotright = -60;
+guilsinglleft = -53;
+guilsinglright = -53;
+h = -40;
+hyphen = -100;
+j = -30;
+n = -95;
+nine = -14;
+o = -80;
+one = -30;
+parenright = 10;
+period = -100;
+periodcentered = -60;
+quotesinglbase = -48;
+registered = -20;
+s = -100;
+semicolon = -44;
+seven = 7;
+six = -34;
+slash = -60;
+t = -70;
+u = -85;
+x = -100;
+z = -70;
+zero = -31;
+};
+Thorn = {
+A = -14;
+AE = -50;
+T = -45;
+V = -8;
+X = -46;
+Y = -17;
+Z = -31;
+backslash = -10;
+braceright = -22;
+bracketright = -25;
+comma = -35;
+parenright = -32;
+period = -34;
+question = -20;
+questiondown = -20;
+quotesinglbase = -35;
+slash = -20;
+x = -10;
+};
+U = {
+A = -60;
+AE = -13;
+T = -10;
+apostrophe = -33;
+b = -7;
+comma = -60;
+eth = -8;
+germandbls = -9;
+guillemotleft = -20;
+guillemotright = -20;
+h = -8;
+hyphen = -20;
+i = -6;
+icircumflex = 5;
+j = -6;
+l = -8;
+n = -35;
+o = -25;
+period = -40;
+quotesinglbase = -8;
+s = -11;
+slash = -80;
+t = -30;
+u = -40;
+x = -6;
+z = -9;
+};
+V = {
+A = -100;
+AE = -61;
+I = -10;
+J = -10;
+O = -45;
+Q = -30;
+S = -30;
+V = 25;
+W = 10;
+X = -30;
+Y = 10;
+Z = -20;
+ampersand = -32;
+apostrophe = -26;
+at = -70;
+braceright = 21;
+bracketright = 36;
+bullet = -60;
+colon = -80;
+comma = -170;
+eth = -39;
+exclam = -30;
+exclamdown = -30;
+f = -20;
+four = -25;
+germandbls = -10;
+guillemotleft = -55;
+guillemotright = -60;
+guilsinglleft = -35;
+guilsinglright = -22;
+h = -40;
+hyphen = -80;
+j = -30;
+n = -75;
+o = -70;
+period = -130;
+periodcentered = -60;
+quotesinglbase = -43;
+registered = -40;
+s = -70;
+semicolon = -10;
+seven = 25;
+six = -13;
+slash = -80;
+t = -55;
+u = -65;
+x = -70;
+z = -45;
+zero = -11;
+};
+W = {
+A = -80;
+AE = -47;
+I = -10;
+O = -25;
+Q = -10;
+S = -25;
+T = 10;
+V = 20;
+W = 15;
+X = -20;
+Y = 15;
+Z = -20;
+ampersand = -21;
+apostrophe = -26;
+at = -30;
+braceright = 15;
+bracketright = 25;
+bullet = -30;
+colon = -60;
+comma = -100;
+eth = -33;
+exclam = -20;
+exclamdown = -20;
+f = -10;
+four = -14;
+germandbls = -8;
+guillemotleft = -55;
+guillemotright = -60;
+guilsinglleft = -24;
+guilsinglright = -13;
+h = -30;
+hyphen = -60;
+j = -20;
+n = -60;
+o = -60;
+period = -100;
+periodcentered = -30;
+quotesinglbase = -31;
+registered = -20;
+s = -65;
+seven = 17;
+slash = -50;
+t = -35;
+u = -35;
+x = -40;
+z = -35;
+};
+X = {
+A = 10;
+O = -45;
+Q = -45;
+S = -20;
+T = -20;
+Z = -20;
+ampersand = -6;
+apostrophe = -35;
+asterisk = -40;
+at = -20;
+bracketright = 6;
+bullet = -80;
+comma = -20;
+eth = -17;
+exclam = -40;
+exclamdown = -40;
+f = -30;
+four = -13;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -22;
+h = -20;
+hyphen = -80;
+j = -15;
+n = -40;
+o = -45;
+one = -11;
+periodcentered = -80;
+registered = -60;
+s = -30;
+six = -9;
+t = -40;
+u = -35;
+x = 10;
+zero = -9;
+};
+Y = {
+A = -100;
+AE = -68;
+I = -20;
+J = -20;
+M = -7;
+O = -55;
+Q = -50;
+S = -40;
+T = 10;
+V = 10;
+W = 10;
+X = -20;
+Y = 15;
+Z = -20;
+ampersand = -45;
+apostrophe = -33;
+asterisk = -10;
+at = -80;
+braceright = 20;
+bracketright = 31;
+bullet = -80;
+colon = -100;
+comma = -160;
+eight = -14;
+eth = -59;
+exclam = -30;
+exclamdown = -30;
+f = -45;
+four = -35;
+germandbls = -15;
+guillemotleft = -90;
+guillemotright = -60;
+guilsinglleft = -51;
+guilsinglright = -31;
+h = -60;
+hyphen = -90;
+j = -30;
+n = -100;
+o = -95;
+period = -100;
+periodcentered = -80;
+quotesinglbase = -52;
+registered = -60;
+s = -80;
+semicolon = -21;
+seven = 21;
+six = -27;
+slash = -60;
+t = -70;
+u = -85;
+x = -95;
+z = -65;
+zero = -23;
+};
+Z = {
+A = -30;
+I = -15;
+O = -30;
+Q = -20;
+S = -20;
+T = -30;
+V = -20;
+W = -15;
+X = -20;
+Y = -20;
+apostrophe = -39;
+asterisk = -10;
+at = -20;
+bullet = -30;
+eth = -14;
+f = -60;
+four = -46;
+germandbls = -6;
+guillemotleft = -60;
+guillemotright = -20;
+guilsinglleft = -36;
+h = -30;
+hyphen = -120;
+j = -30;
+n = -50;
+o = -60;
+periodcentered = -30;
+registered = -40;
+s = -50;
+six = -10;
+slash = -30;
+t = -60;
+u = -50;
+x = -15;
+z = -15;
+zero = -9;
+};
+a = {
+I = -8;
+J = -8;
+M = -6;
+O = -8;
+Q = -8;
+S = -20;
+T = -65;
+U = -15;
+V = -40;
+W = -10;
+X = -25;
+Y = -55;
+ampersand = -6;
+apostrophe = -40;
+asterisk = -20;
+backslash = -28;
+bracketright = -10;
+bullet = -10;
+exclam = -10;
+exclamdown = -10;
+guillemotleft = -30;
+guillemotright = -10;
+hyphen = -20;
+n = -10;
+periodcentered = -10;
+question = -10;
+questiondown = -10;
+quoteleft = -8;
+quoteright = -20;
+quotesingle = -11;
+registered = -10;
+t = -10;
+};
+ampersand = {
+Q = -6;
+T = -45;
+U = -7;
+V = -45;
+W = -29;
+Y = -45;
+f = -18;
+n = -5;
+quoteright = -35;
+quotesingle = -37;
+t = -19;
+};
+apostrophe = {
+b = -35;
+f = -38;
+h = -35;
+i = -33;
+j = -33;
+l = -35;
+n = -44;
+o = -63;
+s = -57;
+t = -37;
+u = -46;
+x = -33;
+z = -40;
+};
+asterisk = {
+A = -60;
+AE = -90;
+X = -40;
+Y = -10;
+Z = -10;
+eth = -24;
+o = -20;
+quoteright = 11;
+s = -10;
+t = 15;
+};
+at = {
+A = -10;
+AE = -30;
+S = -20;
+T = -70;
+V = -30;
+X = -20;
+Y = -30;
+Z = -20;
+quotesingle = -8;
+};
+backslash = {
+J = 60;
+O = -10;
+Q = -10;
+T = -43;
+U = -15;
+V = -41;
+W = -31;
+Y = -42;
+f = 35;
+germandbls = 30;
+j = 80;
+one = -29;
+quoteright = -32;
+quotesingle = -33;
+t = -9;
+x = 40;
+};
+braceleft = {
+A = -50;
+AE = -50;
+I = -20;
+Icircumflex = 47;
+J = 10;
+M = -10;
+O = -10;
+Q = -30;
+S = -10;
+T = 10;
+V = 21;
+W = 15;
+Y = 20;
+b = -40;
+eight = -15;
+eth = -24;
+four = -18;
+germandbls = 53;
+h = -40;
+i = -40;
+j = 10;
+l = -40;
+n = -50;
+o = -50;
+one = -13;
+parenleft = -9;
+s = -60;
+six = -21;
+t = -60;
+u = -60;
+x = -40;
+z = -40;
+zero = -20;
+};
+bracketleft = {
+A = -15;
+AE = -8;
+J = 56;
+O = -19;
+Q = -19;
+V = 36;
+W = 25;
+X = 5;
+Y = 31;
+eight = -11;
+eth = -25;
+four = -15;
+germandbls = 60;
+j = 35;
+n = -20;
+o = -20;
+one = -11;
+s = -25;
+seven = 20;
+six = -19;
+t = -20;
+u = -30;
+x = -30;
+z = -30;
+zero = -17;
+};
+bullet = {
+A = -40;
+AE = -60;
+S = -40;
+T = -60;
+V = -60;
+W = -30;
+X = -80;
+Y = -60;
+Z = -30;
+b = -20;
+f = -40;
+h = -20;
+i = -20;
+j = -30;
+l = -20;
+n = -40;
+o = -20;
+s = -40;
+t = -20;
+u = -10;
+x = -60;
+z = -40;
+};
+c = {
+O = -8;
+Q = -8;
+S = -20;
+T = -60;
+V = -20;
+W = -10;
+X = -20;
+Y = -50;
+ampersand = -16;
+apostrophe = -25;
+asterisk = -10;
+braceright = 10;
+bullet = -20;
+comma = -20;
+eth = -9;
+exclam = -10;
+exclamdown = -10;
+germandbls = -25;
+guillemotleft = -29;
+guilsinglleft = -29;
+hyphen = -20;
+o = -15;
+periodcentered = -20;
+question = -15;
+questiondown = -15;
+registered = -10;
+s = -10;
+t = -10;
+u = -15;
+};
+colon = {
+T = -70;
+V = -40;
+W = -40;
+Y = -80;
+seven = -40;
+};
+comma = {
+O = -40;
+Q = -40;
+S = -10;
+T = -100;
+U = -40;
+V = -140;
+W = -90;
+Y = -140;
+f = -20;
+h = -30;
+i = -40;
+j = -20;
+l = -40;
+n = -30;
+o = -40;
+one = -30;
+quoteleft = -150;
+quoteright = -150;
+quotesingle = -96;
+seven = -30;
+t = -80;
+u = -40;
+};
+d = {
+I = -9;
+J = -9;
+M = -6;
+O = -8;
+Q = -8;
+T = -10;
+U = -13;
+ampersand = -7;
+apostrophe = -40;
+};
+degree = {
+four = -20;
+six = -10;
+zero = -8;
+};
+e = {
+I = -6;
+J = -6;
+M = -5;
+S = -20;
+T = -60;
+U = -9;
+V = -40;
+W = -20;
+X = -30;
+Y = -50;
+Z = -20;
+ampersand = -9;
+apostrophe = -37;
+asterisk = -10;
+backslash = -20;
+bracketright = -20;
+bullet = -10;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -25;
+guillemotleft = -20;
+guillemotright = -10;
+hyphen = -20;
+parenright = -30;
+periodcentered = -10;
+question = -15;
+questiondown = -15;
+s = -10;
+t = -20;
+u = -5;
+};
+eight = {
+T = -19;
+V = -8;
+Y = -15;
+backslash = -9;
+braceright = -15;
+bracketright = -11;
+parenright = -18;
+};
+equal = {
+seven = -24;
+};
+eth = {
+ampersand = -5;
+comma = -8;
+period = -11;
+quotesinglbase = -8;
+x = -13;
+z = -4;
+};
+exclam = {
+AE = -10;
+V = -30;
+W = -20;
+X = -40;
+Y = -30;
+};
+exclamdown = {
+AE = -10;
+V = -30;
+W = -20;
+X = -40;
+Y = -30;
+};
+f = {
+A = -21;
+I = -10;
+S = -20;
+T = -45;
+V = 30;
+W = 35;
+X = 5;
+Z = -20;
+ampersand = -20;
+apostrophe = -18;
+backslash = 45;
+braceright = 50;
+bracketright = 20;
+bullet = -50;
+comma = -80;
+eth = -11;
+exclam = -20;
+exclamdown = -20;
+germandbls = -30;
+guillemotleft = -50;
+guillemotright = -20;
+guilsinglleft = -24;
+hyphen = -40;
+i = -10;
+n = -30;
+o = -35;
+period = -70;
+periodcentered = -50;
+question = 20;
+questiondown = -40;
+quoteleft = 20;
+quotesinglbase = -50;
+quotesingle = 20;
+registered = -10;
+s = -40;
+slash = -20;
+t = -45;
+u = -35;
+x = -30;
+z = -25;
+};
+four = {
+S = -8;
+T = -44;
+V = -27;
+W = -17;
+Y = -34;
+Z = -9;
+backslash = -28;
+braceright = -21;
+bracketright = -16;
+degree = -26;
+one = -14;
+parenright = -27;
+quotesingle = -13;
+seven = -29;
+};
+fraction = {
+four = -25;
+seven = 12;
+six = -11;
+zero = -10;
+};
+g = {
+I = -9;
+J = 30;
+M = -6;
+O = -7;
+Q = -7;
+S = -15;
+T = -70;
+U = -13;
+V = -50;
+W = -40;
+X = -10;
+Y = -60;
+ampersand = -7;
+apostrophe = -38;
+asterisk = -30;
+backslash = -60;
+braceright = 20;
+bracketright = -15;
+bullet = -30;
+f = 15;
+germandbls = 40;
+guillemotleft = -20;
+guillemotright = -10;
+hyphen = -20;
+j = 45;
+n = -10;
+o = -10;
+periodcentered = -30;
+question = -30;
+questiondown = -10;
+quoteleft = -20;
+quoteright = -20;
+quotesingle = -8;
+registered = -10;
+s = -15;
+slash = 5;
+t = -30;
+};
+germandbls = {
+asterisk = -11;
+f = -15;
+quoteleft = -10;
+quoteright = -14;
+quotesingle = -10;
+t = -25;
+x = -10;
+};
+guillemotleft = {
+T = -50;
+};
+guillemotright = {
+S = -23;
+T = -50;
+V = -35;
+W = -25;
+X = -20;
+Y = -50;
+Z = -20;
+f = -15;
+quoteright = -35;
+quotesingle = -36;
+s = -20;
+t = -15;
+x = -35;
+z = -20;
+};
+hyphen = {
+A = -70;
+AE = -80;
+S = -80;
+T = -110;
+V = -50;
+W = -30;
+X = -90;
+Y = -60;
+Z = -80;
+b = -10;
+f = -40;
+h = -10;
+i = -10;
+j = -10;
+l = -10;
+n = -30;
+o = -10;
+one = -8;
+seven = -100;
+t = -30;
+three = -15;
+two = -14;
+u = -10;
+x = -80;
+z = -60;
+};
+i = {
+I = -8;
+J = -8;
+M = -5;
+O = -10;
+Q = -10;
+T = -13;
+U = -15;
+V = -7;
+W = -8;
+Y = -8;
+ampersand = -6;
+apostrophe = -43;
+asterisk = -30;
+bullet = -40;
+eth = -4;
+f = -4;
+guillemotleft = -20;
+guillemotright = -20;
+guilsinglleft = -8;
+hyphen = -15;
+periodcentered = -40;
+question = -10;
+quoteleft = -10;
+quoteright = -30;
+quotesingle = -8;
+t = -4;
+};
+j = {
+I = -7;
+J = -7;
+M = -7;
+O = -5;
+Q = -5;
+S = -30;
+T = -10;
+U = -7;
+V = 15;
+W = 10;
+X = -10;
+Z = -20;
+ampersand = -6;
+apostrophe = -35;
+asterisk = -10;
+bullet = -20;
+comma = -30;
+exclam = -10;
+exclamdown = -10;
+guillemotleft = -10;
+guillemotright = -10;
+period = -30;
+periodcentered = -20;
+quoteright = -20;
+};
+k = {
+I = -8;
+J = -8;
+M = -6;
+O = -6;
+Q = -6;
+S = -40;
+T = -80;
+U = -12;
+V = -40;
+W = -30;
+X = -10;
+Y = -50;
+Z = -20;
+ampersand = -12;
+apostrophe = -40;
+asterisk = -30;
+backslash = -22;
+bracketright = -20;
+bullet = -20;
+comma = 40;
+exclam = -60;
+exclamdown = -60;
+germandbls = 15;
+guillemotleft = -40;
+guillemotright = -20;
+guilsinglleft = -10;
+hyphen = -10;
+j = 10;
+l = -30;
+n = -25;
+o = -25;
+period = -20;
+periodcentered = -20;
+question = -30;
+quoteleft = -20;
+quotesingle = -9;
+registered = -20;
+s = -15;
+semicolon = 10;
+slash = 45;
+t = -35;
+u = -20;
+z = -10;
+};
+l = {
+O = -12;
+Q = -12;
+T = -22;
+U = -18;
+V = -15;
+W = -15;
+Y = -17;
+apostrophe = -49;
+asterisk = -50;
+bullet = -40;
+f = -10;
+guillemotleft = -13;
+guilsinglleft = -13;
+hyphen = -45;
+n = -20;
+o = -15;
+periodcentered = -40;
+quoteleft = -20;
+quoteright = -30;
+quotesingle = -20;
+registered = -30;
+t = -25;
+};
+minus = {
+one = -11;
+seven = -28;
+three = -12;
+two = -25;
+};
+n = {
+I = -8;
+M = -7;
+Q = -5;
+S = -10;
+T = -60;
+V = -35;
+W = -20;
+X = -10;
+Y = -50;
+Z = -10;
+ampersand = -5;
+apostrophe = -43;
+asterisk = -20;
+backslash = -29;
+question = -10;
+questiondown = -10;
+quoteleft = -25;
+quoteright = -25;
+quotesingle = -16;
+t = -20;
+};
+nine = {
+A = -8;
+T = -28;
+V = -10;
+X = -14;
+Y = -22;
+Z = -13;
+backslash = -10;
+braceright = -20;
+bracketright = -16;
+fraction = -15;
+parenright = -26;
+seven = -9;
+slash = -20;
+};
+o = {
+A = -6;
+J = -8;
+M = -7;
+S = -25;
+T = -55;
+U = -8;
+V = -40;
+W = -20;
+X = -20;
+Y = -50;
+Z = -15;
+apostrophe = -46;
+asterisk = -20;
+backslash = -30;
+comma = -10;
+period = -25;
+question = -10;
+questiondown = -10;
+quoteleft = -19;
+quoteright = -17;
+quotesingle = -19;
+t = -10;
+x = -25;
+z = -10;
+};
+one = {
+braceright = -8;
+slash = -20;
+};
+parenleft = {
+AE = -20;
+J = 50;
+Q = -25;
+T = 10;
+Y = 10;
+eight = -17;
+eth = -32;
+four = -28;
+germandbls = 42;
+i = -10;
+j = 60;
+n = -30;
+nine = -8;
+o = -30;
+one = -11;
+seven = 14;
+six = -28;
+t = -40;
+u = -40;
+z = -10;
+zero = -26;
+};
+parenright = {
+braceright = -9;
 };
 period = {
+Q = -40;
+T = -100;
 U = -40;
 V = -130;
-quoteright = -111;
 W = -80;
-s = -20;
-f = -45;
-quotesingle = -96;
 Y = -100;
-t = -70;
-u = -40;
+f = -45;
 h = -20;
 i = -40;
 j = -20;
-one = -30;
-x = -20;
 l = -40;
-Q = -40;
-seven = -30;
-quoteleft = -113;
-z = -10;
 n = -40;
 o = -50;
-T = -100;
-};
-degree = {
-six = -10;
-four = -20;
-zero = -8;
-};
-B = {
-asterisk = -30;
-comma = -40;
-V = -5;
-AE = -10;
-parenright = -15;
-W = -10;
-s = -8;
-X = -9;
-f = -5;
-t = -5;
-Y = -10;
-apostrophe = -31;
-Z = -10;
-x = -12;
-slash = -20;
-seven = -8;
-z = -6;
-braceright = -15;
-bracketright = -14;
-S = -20;
-T = -20;
-};
-parenleft = {
-eth = -32;
-AE = -20;
-J = 50;
-germandbls = 42;
-Y = 10;
-t = -40;
-nine = -8;
-eight = -17;
+one = -30;
+quoteleft = -113;
+quoteright = -111;
+quotesingle = -96;
+s = -20;
+seven = -30;
+t = -70;
 u = -40;
-i = -10;
-j = 60;
-one = -11;
-zero = -26;
-four = -28;
-Q = -25;
-seven = 14;
+x = -20;
 z = -10;
-n = -30;
-six = -28;
-o = -30;
-T = 10;
+};
+periodcentered = {
+A = -40;
+AE = -60;
+S = -40;
+T = -60;
+V = -60;
+W = -30;
+X = -80;
+Y = -60;
+Z = -30;
+b = -20;
+f = -40;
+h = -20;
+i = -20;
+j = -30;
+l = -20;
+n = -40;
+o = -20;
+s = -40;
+t = -20;
+u = -10;
+x = -60;
+z = -40;
+};
+plus = {
+one = -10;
+seven = -38;
+three = -19;
+two = -29;
+};
+q = {
+I = -8;
+J = -5;
+M = -7;
+Q = -5;
+S = -40;
+T = -80;
+U = -10;
+V = -40;
+W = -25;
+X = -25;
+Y = -50;
+Z = -30;
+ampersand = -5;
+apostrophe = -36;
+backslash = -23;
+bracketright = -10;
+j = 15;
+question = -30;
+questiondown = -30;
+quoteright = -10;
 };
 question = {
 A = -60;
 AE = -70;
 s = -15;
 };
-C = {
-asterisk = -10;
-guillemotright = -20;
-V = 5;
-eth = -14;
-exclam = -30;
-W = 10;
-guillemotleft = -60;
-exclamdown = -30;
-apostrophe = -31;
-t = -5;
-u = -14;
-hyphen = -80;
-registered = -40;
-one = -8;
-O = -13;
-four = -44;
-guilsinglleft = -36;
-Q = -25;
-at = -10;
-braceright = 10;
-n = -6;
-bullet = -40;
-six = -9;
-o = -45;
-periodcentered = -40;
-};
-asterisk = {
-s = -10;
-Z = -10;
-t = 15;
-quoteright = 11;
+questiondown = {
 A = -60;
-eth = -24;
-AE = -90;
-X = -40;
-Y = -10;
-o = -20;
+AE = -70;
+f = 10;
+j = 30;
+s = -15;
+x = -30;
+z = -10;
 };
-D = {
-comma = -40;
-question = -10;
-three = -8;
-parenright = -10;
-AE = -25;
-V = -30;
-exclam = -10;
-W = -10;
-period = -20;
-X = -40;
-exclamdown = -10;
-apostrophe = -31;
-Y = -30;
-two = -9;
-Z = -20;
-A = -40;
-x = -11;
-questiondown = -10;
-slash = -11;
-seven = -10;
-z = -5;
-backslash = -8;
-braceright = -20;
-bracketright = -17;
-T = -60;
-};
-E = {
-o = -40;
-guillemotleft = -50;
-Q = -8;
-u = -8;
-four = -29;
-apostrophe = -37;
-t = -7;
-hyphen = -40;
-eth = -11;
-one = -23;
-O = -8;
-n = -5;
-guilsinglleft = -23;
-f = -6;
-};
-one = {
-slash = -20;
-braceright = -8;
-};
-F = {
-z = -60;
-bracketright = 8;
-apostrophe = -29;
-f = -40;
-O = -20;
-ampersand = -32;
-igrave = 6;
-h = -35;
-four = -17;
-Q = -40;
-guilsinglleft = -26;
-guilsinglright = -20;
-exclam = -20;
-eth = -28;
-j = -45;
-S = -20;
-guillemotleft = -50;
-idieresis = 27;
-at = -40;
-T = 20;
-eight = -10;
-period = -140;
-braceright = 10;
-quotesinglbase = -72;
-V = 25;
-n = -80;
-W = 20;
-o = -60;
-seven = 5;
-X = -20;
-one = -16;
-A = -80;
-Y = 20;
-slash = -44;
-comma = -150;
-guillemotright = -40;
-s = -80;
-six = -10;
-colon = -40;
-t = -60;
-germandbls = -10;
-exclamdown = -20;
-parenright = 12;
-semicolon = -16;
-icircumflex = 53;
-u = -80;
-zero = -8;
-x = -90;
+quoteleft = {
+A = -90;
 AE = -80;
-I = -30;
-J = -20;
+T = 20;
+V = 50;
+W = 50;
+X = -30;
+Y = 40;
+comma = -112;
+eth = -33;
+germandbls = -11;
+i = -10;
+j = -20;
+o = -30;
+period = -115;
+questiondown = -150;
+s = -20;
+u = -10;
+x = -20;
+z = -10;
 };
-G = {
-quoteleft = -16;
-Q = -20;
-braceright = 10;
-Y = -10;
-registered = -20;
-apostrophe = -51;
-T = -10;
-quoteright = -23;
-t = -11;
-V = -20;
-one = -30;
-f = -11;
-W = -10;
-n = -5;
-quotesingle = -12;
-};
-four = {
-braceright = -21;
-Y = -34;
-Z = -9;
-S = -8;
-degree = -26;
-T = -44;
-seven = -29;
-bracketright = -16;
-parenright = -27;
-V = -27;
-backslash = -28;
-one = -14;
-W = -17;
-quotesingle = -13;
-};
-I = {
-guillemotright = -20;
-eth = -7;
-guillemotleft = -30;
-s = -6;
-apostrophe = -35;
-germandbls = -6;
-u = -20;
-h = -6;
-i = -6;
-A = -45;
-j = -6;
-l = -7;
-Q = -20;
-slash = -30;
-z = -5;
-icircumflex = 1;
-n = -6;
-S = -20;
-o = -40;
-T = -10;
-b = -6;
-};
-colon = {
-V = -40;
-W = -40;
-T = -70;
-seven = -40;
-Y = -80;
-};
-J = {
-comma = -30;
-asterisk = -15;
-guillemotright = -40;
-eth = -7;
-exclam = -20;
-guillemotleft = -30;
-period = -20;
-exclamdown = -20;
-apostrophe = -35;
-germandbls = -6;
-s = -6;
-u = -8;
-Z = -20;
-h = -6;
-i = -6;
-A = -40;
-j = -6;
-l = -7;
-z = -5;
-icircumflex = 1;
-n = -30;
-S = -20;
-o = -7;
-b = -6;
-};
-zero = {
-X = -12;
-braceright = -19;
-Y = -21;
-Z = -12;
-T = -27;
-seven = -55;
-bracketright = -15;
-parenright = -25;
-V = -10;
-backslash = -10;
-fraction = -13;
-slash = -10;
+quoteright = {
+A = -80;
+AE = -140;
+M = -8;
+O = -10;
+Q = -10;
+T = 30;
+V = 55;
+W = 55;
+Y = 55;
+ampersand = -32;
+at = -34;
+comma = -113;
+eth = -39;
+f = -10;
+germandbls = -9;
+guillemotleft = -51;
+guillemotright = -21;
+guilsinglleft = -51;
+guilsinglright = -21;
+hyphen = -10;
+j = -10;
+n = -15;
+o = -50;
+period = -115;
+questiondown = -150;
+quotesinglbase = -150;
+s = -30;
+slash = -44;
+u = -25;
+x = -20;
 };
 quotesinglbase = {
 Q = -12;
-Y = -51;
-x = 20;
-j = 20;
-z = 10;
 T = -48;
 U = -9;
-quoteright = -111;
-t = -21;
 V = -44;
-quotesingle = -96;
-f = 20;
 W = -32;
-};
-K = {
-registered = -60;
-z = -10;
-two = 6;
-apostrophe = -37;
-f = -20;
-O = -30;
-ampersand = -6;
-h = -30;
-four = -17;
-Q = -50;
-guilsinglleft = -23;
-exclam = -50;
-eth = -15;
+Y = -51;
+f = 20;
 j = 20;
-S = -20;
-guillemotleft = -60;
-bullet = -60;
-n = -50;
-W = -10;
-o = -60;
-periodcentered = -60;
-slash = 35;
-Y = 10;
-comma = 30;
-asterisk = -40;
-guillemotright = -20;
-s = -40;
-six = -8;
-colon = -40;
-t = -55;
-semicolon = 10;
-exclamdown = -50;
-u = -55;
-icircumflex = 7;
-hyphen = -80;
-I = -20;
-x = 15;
-J = 10;
+quoteright = -111;
+quotesingle = -96;
+t = -21;
+x = 20;
+z = 10;
 };
-L = {
-quoteleft = -80;
-registered = -80;
-z = 15;
-bracketright = -18;
-apostrophe = -87;
-f = -45;
-O = -50;
-h = -20;
-four = -59;
-Q = -50;
-guilsinglleft = -30;
-exclam = -20;
-eth = -5;
-j = -10;
-S = -5;
-guillemotleft = -30;
-at = 5;
-T = -60;
-U = -14;
-braceright = -20;
-bullet = -80;
-V = -80;
-n = -30;
-nine = -8;
-W = -70;
-o = -40;
-periodcentered = -80;
-X = 20;
-one = -41;
-A = 20;
-Y = -80;
-seven = -15;
-asterisk = -100;
-guillemotright = -20;
-quotesingle = -64;
-s = 10;
-six = -9;
-quoteright = -90;
-t = -65;
-parenright = -10;
-exclamdown = -20;
-backslash = -53;
-u = -30;
-zero = -8;
-hyphen = -115;
-AE = 16;
-I = -10;
-x = 35;
-J = -10;
-};
-bullet = {
-V = -60;
-AE = -60;
-W = -30;
-s = -40;
-X = -80;
-f = -40;
-t = -20;
-Y = -60;
-u = -10;
-Z = -30;
-h = -20;
-i = -20;
+quotesingle = {
 A = -40;
-j = -30;
-x = -60;
-l = -20;
-z = -40;
-n = -40;
-S = -40;
-o = -20;
-T = -60;
-b = -20;
+AE = -57;
+ampersand = -25;
+at = -17;
+comma = -96;
+eth = -29;
+guillemotleft = -36;
+guilsinglleft = -36;
+o = -22;
+period = -96;
+quotesinglbase = -96;
+s = -11;
+slash = -33;
 };
-M = {
-eth = -6;
-exclam = -10;
-exclamdown = -10;
-apostrophe = -38;
-Y = -7;
-germandbls = -6;
-t = -6;
-f = -6;
-h = -6;
-u = -7;
-i = -6;
-j = -6;
-l = -6;
-Q = -15;
-slash = -20;
-braceright = -10;
-n = -6;
-o = -6;
-T = -9;
-b = -6;
-};
-quoteright = {
-comma = -113;
-guillemotright = -21;
-V = 55;
-AE = -140;
-eth = -39;
-W = 55;
-guillemotleft = -51;
-period = -115;
-f = -10;
-germandbls = -9;
-Y = 55;
-s = -30;
-u = -25;
-hyphen = -10;
+r = {
+A = -38;
+I = -5;
+J = -5;
 M = -8;
-A = -80;
-O = -10;
-j = -10;
-quotesinglbase = -150;
-ampersand = -32;
-questiondown = -150;
-guilsinglleft = -51;
-Q = -10;
-guilsinglright = -21;
-at = -34;
-slash = -44;
-x = -20;
-n = -15;
-o = -50;
-T = 30;
-};
-O = {
-comma = -80;
-question = -10;
-guillemotright = -20;
-V = -30;
-AE = -25;
-W = -10;
-guillemotleft = -10;
-X = -55;
-period = -15;
-apostrophe = -31;
-Y = -35;
-s = -40;
-two = -8;
-Z = -20;
-u = -20;
-A = -60;
-x = -11;
-questiondown = -10;
-slash = -40;
-seven = -9;
-z = -5;
-braceright = -10;
-bracketright = -15;
-S = -20;
-n = -30;
-o = -20;
-T = -25;
-};
-slash = {
-V = 60;
-AE = -46;
-eth = -31;
-W = 55;
-s = -60;
-t = -25;
-Y = 60;
-u = -50;
-Icircumflex = 42;
-A = -80;
-x = -50;
-O = -20;
-zero = -20;
-four = -50;
-Q = -10;
-seven = 30;
-z = -45;
-n = -40;
-six = -30;
-o = -60;
-T = 60;
-};
-exclamdown = {
-V = -30;
-W = -20;
-AE = -10;
-X = -40;
-Y = -30;
-};
-P = {
-z = -50;
-apostrophe = -24;
-f = -25;
-O = -45;
-ampersand = -22;
-h = -80;
-four = -11;
-Q = -30;
-guilsinglleft = -26;
-exclam = -30;
-eth = -18;
-j = -65;
-S = -50;
-guillemotleft = -60;
-period = -180;
-at = -50;
-T = -45;
-quotesinglbase = -86;
+S = -35;
+T = -90;
+V = -20;
+W = -15;
+X = -50;
+Y = -45;
+Z = -45;
+ampersand = -29;
+apostrophe = -18;
+asterisk = 10;
 braceright = -20;
-questiondown = -20;
-V = -25;
-n = -55;
-W = -20;
-o = -90;
-slash = -120;
-X = -80;
-A = -130;
-Y = -30;
-comma = -195;
-Z = -80;
-guillemotright = -40;
-s = -70;
-colon = -40;
-t = -40;
-germandbls = -5;
-exclamdown = -30;
-u = -70;
-icircumflex = 27;
-question = -20;
-hyphen = -40;
-AE = -65;
-I = -45;
-x = -50;
-J = -40;
-};
-Q = {
-comma = -40;
-question = -8;
-guillemotright = -20;
-V = -20;
-AE = -19;
-exclam = -30;
-W = -20;
-J = 40;
-X = -20;
-guillemotleft = -20;
-exclamdown = -30;
-Y = -50;
-apostrophe = -32;
-germandbls = 64;
-Z = -15;
-f = 9;
-period = -40;
-A = -20;
-j = 52;
-x = -10;
-questiondown = -8;
-z = -5;
-seven = -9;
-bracketright = 11;
-T = -17;
-};
-periodcentered = {
-V = -60;
-AE = -60;
-W = -30;
-s = -40;
-X = -80;
-f = -40;
-t = -20;
-Y = -60;
-u = -10;
-Z = -30;
-h = -20;
-i = -20;
-A = -40;
-j = -30;
-x = -60;
-l = -20;
-z = -40;
-n = -40;
-S = -40;
-o = -20;
-T = -60;
-b = -20;
-};
-R = {
-registered = -20;
-z = -10;
-apostrophe = -37;
-f = -20;
-O = -20;
-h = -40;
-Q = -20;
-i = -6;
-guilsinglleft = -13;
-exclam = -30;
-eth = -9;
-S = -30;
+bracketright = -25;
+bullet = -30;
+comma = -110;
+eth = -11;
+exclam = -20;
+exclamdown = -20;
+f = 15;
 guillemotleft = -50;
-T = -50;
-l = -6;
-U = -5;
-quotesinglbase = 10;
-bullet = -40;
-V = -35;
-n = -45;
-W = -20;
-o = -55;
-periodcentered = -40;
-slash = 50;
-Y = -40;
-comma = 40;
-asterisk = -40;
-Z = -10;
-guillemotright = -30;
-s = -40;
-t = -40;
-exclamdown = -30;
-backslash = -8;
-u = -50;
-hyphen = -70;
-I = -20;
-x = 15;
-J = 10;
+guilsinglleft = -33;
+hyphen = -10;
+o = -30;
+parenright = -50;
+period = -120;
+periodcentered = -30;
+question = -40;
+questiondown = -40;
+quotesinglbase = -43;
+registered = -20;
+slash = -60;
+t = 10;
+x = -10;
 };
-S = {
-asterisk = -40;
-comma = -40;
-V = -20;
-AE = -5;
-I = -10;
-W = -20;
-quoteright = -9;
-s = -20;
-X = -30;
-f = -30;
-apostrophe = -42;
-Y = -50;
-t = -50;
-u = -10;
-Z = -20;
-h = -30;
-hyphen = -30;
-A = -30;
-j = -30;
-one = -20;
-x = -35;
-slash = -30;
-z = -15;
-quoteleft = -50;
-bullet = -20;
-n = -40;
-S = -20;
-o = -20;
+registered = {
+A = -80;
+AE = -110;
+Q = -20;
 T = -40;
-periodcentered = -20;
+V = -40;
+W = -20;
+X = -80;
+Y = -60;
+Z = -80;
+x = -40;
+z = -20;
+};
+s = {
+I = -6;
+J = -6;
+M = -5;
+Q = -5;
+S = -20;
+T = -80;
+U = -8;
+V = -55;
+W = -40;
+X = -20;
+Y = -50;
+Z = -5;
+apostrophe = -33;
+asterisk = -30;
+backslash = -17;
+braceright = -20;
+bracketright = -25;
+bullet = -30;
+exclam = -20;
+exclamdown = -20;
+f = -15;
+guillemotleft = -20;
+hyphen = -40;
+o = -20;
+parenright = -30;
+period = -10;
+periodcentered = -30;
+question = -15;
+questiondown = -15;
+quoteleft = -25;
+quoteright = -30;
+registered = -10;
+t = -20;
+z = -10;
 };
 semicolon = {
 seven = -60;
 };
-exclam = {
-V = -30;
-W = -20;
-AE = -10;
-X = -40;
-Y = -30;
-};
-T = {
-registered = -20;
-z = -70;
-bracketright = 20;
-M = -9;
-f = -50;
-apostrophe = -34;
-O = -30;
-ampersand = -50;
-h = -40;
-four = -40;
-Q = -30;
-guilsinglleft = -53;
-guilsinglright = -53;
-eth = -65;
-j = -30;
-S = -20;
-guillemotleft = -80;
-five = -8;
-at = -70;
-T = -5;
-eight = -19;
-nine = -14;
-braceright = 10;
-bullet = -60;
-V = 40;
-n = -95;
-period = -100;
-W = 25;
-o = -80;
-periodcentered = -60;
-X = -20;
-one = -30;
-A = -80;
-Y = 25;
-quotesinglbase = -48;
-comma = -110;
-Z = -20;
-seven = 7;
-slash = -60;
-guillemotright = -60;
-s = -100;
-six = -34;
-colon = -70;
-t = -70;
-germandbls = -18;
-parenright = 10;
-semicolon = -44;
-u = -85;
-zero = -31;
-hyphen = -100;
-AE = -63;
-x = -100;
-};
-eth = {
-comma = -8;
-ampersand = -5;
-period = -11;
-x = -13;
-z = -4;
-quotesinglbase = -8;
-};
-U = {
-comma = -60;
-guillemotright = -20;
-eth = -8;
-AE = -13;
-guillemotleft = -20;
-period = -40;
-s = -11;
-apostrophe = -33;
-germandbls = -9;
-t = -30;
-u = -40;
-hyphen = -20;
-h = -8;
-i = -6;
-A = -60;
-j = -6;
-x = -6;
-quotesinglbase = -8;
-l = -8;
-slash = -80;
-z = -9;
-icircumflex = 5;
-n = -35;
-o = -25;
-T = -10;
-b = -7;
-};
-V = {
-registered = -40;
-z = -45;
-bracketright = 36;
-apostrophe = -26;
-f = -20;
-O = -45;
-ampersand = -32;
-h = -40;
-four = -25;
-Q = -30;
-guilsinglleft = -35;
-guilsinglright = -22;
-exclam = -30;
-eth = -39;
-j = -30;
-S = -30;
-guillemotleft = -55;
-period = -130;
-at = -70;
-quotesinglbase = -43;
-braceright = 21;
-bullet = -60;
-V = 25;
-n = -75;
-W = 10;
-o = -70;
-periodcentered = -60;
-X = -30;
-seven = 25;
-A = -100;
-Y = 10;
-slash = -80;
-comma = -170;
-Z = -20;
-guillemotright = -60;
-s = -70;
-six = -13;
+seven = {
+A = -34;
+V = 16;
+W = 9;
+Y = 7;
+bracketright = 12;
+cent = -14;
 colon = -80;
-t = -55;
-germandbls = -10;
-exclamdown = -30;
-semicolon = -10;
-u = -65;
-zero = -11;
-hyphen = -80;
-AE = -61;
-I = -10;
-x = -70;
-J = -10;
-};
-guillemotleft = {
-T = -50;
-};
-W = {
-registered = -20;
-z = -35;
-bracketright = 25;
-apostrophe = -26;
-f = -10;
-O = -25;
-ampersand = -21;
-h = -30;
-four = -14;
-Q = -10;
-guilsinglleft = -24;
-guilsinglright = -13;
-exclam = -20;
-eth = -33;
-j = -20;
-S = -25;
-guillemotleft = -55;
-period = -100;
-at = -30;
-T = 10;
-quotesinglbase = -31;
-braceright = 15;
-bullet = -30;
-V = 20;
-n = -60;
-W = 15;
-o = -60;
-periodcentered = -30;
-X = -20;
-seven = 17;
-A = -80;
-Y = 15;
-slash = -50;
-comma = -100;
-Z = -20;
-guillemotright = -60;
-s = -65;
-colon = -60;
-t = -35;
-germandbls = -8;
-exclamdown = -20;
-u = -35;
+comma = -130;
+five = -40;
+four = -60;
+fraction = -44;
 hyphen = -60;
-AE = -47;
-I = -10;
-x = -40;
-};
-hyphen = {
-three = -15;
-V = -50;
-AE = -80;
-W = -30;
-X = -90;
-f = -40;
-t = -30;
-Y = -60;
-two = -14;
-u = -10;
-Z = -80;
-h = -10;
-i = -10;
-A = -70;
-j = -10;
-one = -8;
-x = -80;
-l = -10;
-z = -60;
-seven = -100;
-n = -30;
-S = -80;
-o = -10;
-T = -110;
-b = -10;
-};
-questiondown = {
-x = -30;
-A = -60;
-AE = -70;
-z = -10;
-j = 30;
-f = 10;
-s = -15;
-};
-X = {
-registered = -60;
-bracketright = 6;
-apostrophe = -35;
-f = -30;
-O = -45;
-ampersand = -6;
-h = -20;
-four = -13;
-Q = -45;
-guilsinglleft = -22;
-exclam = -40;
-eth = -17;
-j = -15;
-S = -20;
-guillemotleft = -60;
-at = -20;
-T = -20;
-bullet = -80;
-n = -40;
-o = -45;
-periodcentered = -80;
-one = -11;
-A = 10;
-asterisk = -40;
-comma = -20;
-Z = -20;
-guillemotright = -20;
-s = -30;
-six = -9;
-t = -40;
-exclamdown = -40;
-u = -35;
-zero = -9;
-hyphen = -80;
-x = 10;
-};
-apostrophe = {
-o = -63;
-h = -35;
-x = -33;
-i = -33;
-b = -35;
-j = -33;
-z = -40;
-s = -57;
-l = -35;
-t = -37;
-u = -46;
-f = -38;
-n = -44;
-};
-backslash = {
-Q = -10;
-Y = -42;
-J = 60;
-x = 40;
-j = 80;
-germandbls = 30;
-T = -43;
-U = -15;
-quoteright = -32;
-t = -9;
-V = -41;
-one = -29;
-f = 35;
-W = -31;
-O = -10;
-quotesingle = -33;
-};
-Y = {
-asterisk = -10;
-S = -40;
-guillemotleft = -90;
-zero = -23;
-T = 10;
-V = 10;
-AE = -68;
-W = 10;
-X = -20;
-Y = 15;
-registered = -60;
-eth = -59;
-Z = -20;
-guillemotright = -60;
-periodcentered = -80;
-hyphen = -90;
-four = -35;
-colon = -100;
-braceright = 20;
-exclamdown = -30;
-f = -45;
-h = -60;
-bullet = -80;
-quotesinglbase = -52;
-guilsinglright = -31;
-j = -30;
-apostrophe = -33;
-A = -100;
-guilsinglleft = -51;
-seven = 21;
-period = -100;
-n = -100;
-bracketright = 31;
-o = -95;
-at = -80;
-semicolon = -21;
-ampersand = -45;
-s = -80;
-I = -20;
-t = -70;
-J = -20;
-u = -85;
-comma = -160;
-eight = -14;
-M = -7;
-x = -95;
-exclam = -30;
-six = -27;
-O = -55;
-germandbls = -15;
-z = -65;
-Q = -50;
-slash = -60;
-};
-Z = {
-registered = -40;
-z = -15;
-f = -60;
-apostrophe = -39;
-O = -30;
-h = -30;
-four = -46;
-Q = -20;
-guilsinglleft = -36;
-eth = -14;
-j = -30;
-S = -20;
-guillemotleft = -60;
-at = -20;
-T = -30;
-bullet = -30;
-V = -20;
-n = -50;
-W = -15;
-o = -60;
-slash = -30;
-X = -20;
-periodcentered = -30;
-A = -30;
-Y = -20;
-asterisk = -10;
-guillemotright = -20;
-s = -50;
-six = -10;
-t = -60;
-germandbls = -6;
-u = -50;
-zero = -9;
-hyphen = -120;
-I = -15;
-x = -15;
-};
-guillemotright = {
-X = -20;
-Y = -50;
-x = -35;
-Z = -20;
-S = -23;
-z = -20;
-T = -50;
-s = -20;
-quoteright = -35;
-t = -15;
-quotesingle = -36;
-V = -35;
-f = -15;
-W = -25;
-};
-minus = {
-one = -11;
-two = -25;
-three = -12;
-seven = -28;
-};
-quotesingle = {
-A = -40;
-guillemotleft = -36;
-o = -22;
-period = -96;
-quotesinglbase = -96;
-AE = -57;
-ampersand = -25;
-comma = -96;
-at = -17;
-s = -11;
-eth = -29;
-guilsinglleft = -36;
-slash = -33;
+period = -130;
+plus = -13;
+semicolon = -30;
+six = -30;
+slash = -80;
 };
 six = {
+T = -8;
 one = -8;
 quotesingle = -8;
-T = -8;
 };
-bracketleft = {
-V = 36;
-AE = -8;
-eth = -25;
-W = 25;
-J = 56;
-X = 5;
-s = -25;
-germandbls = 60;
-Y = 31;
-t = -20;
-u = -30;
-eight = -11;
-A = -15;
-j = 35;
-O = -19;
-one = -11;
-x = -30;
-four = -15;
-zero = -17;
-Q = -19;
-seven = 20;
-z = -30;
-n = -20;
-six = -19;
-o = -20;
-};
-a = {
-U = -15;
-asterisk = -20;
-guillemotright = -10;
-V = -40;
-question = -10;
-I = -8;
-exclam = -10;
-W = -10;
-J = -8;
-X = -25;
-exclamdown = -10;
-apostrophe = -40;
-Y = -55;
-guillemotleft = -30;
-quoteright = -20;
-hyphen = -20;
-quotesingle = -11;
-M = -6;
-registered = -10;
-t = -10;
-O = -8;
-ampersand = -6;
-questiondown = -10;
-Q = -8;
-quoteleft = -8;
-backslash = -28;
-bullet = -10;
-bracketright = -10;
-S = -20;
-n = -10;
-periodcentered = -10;
-T = -65;
-};
-registered = {
-Q = -20;
-Z = -80;
-V = -40;
-x = -40;
+slash = {
 A = -80;
-W = -20;
-AE = -110;
-z = -20;
-X = -80;
-T = -40;
-Y = -60;
-};
-c = {
-asterisk = -10;
-comma = -20;
-question = -15;
-V = -20;
-eth = -9;
-exclam = -10;
-W = -10;
-guillemotleft = -29;
-X = -20;
-exclamdown = -10;
-apostrophe = -25;
-Y = -50;
-germandbls = -25;
-s = -10;
-hyphen = -20;
-registered = -10;
-t = -10;
-u = -15;
-O = -8;
-ampersand = -16;
-questiondown = -15;
-guilsinglleft = -29;
-Q = -8;
-braceright = 10;
-bullet = -20;
-S = -20;
-o = -15;
-T = -60;
-periodcentered = -20;
-};
-d = {
-Q = -8;
-M = -6;
-I = -9;
-ampersand = -7;
-J = -9;
-O = -8;
-apostrophe = -40;
-T = -10;
-U = -13;
-};
-e = {
-U = -9;
-asterisk = -10;
-comma = -40;
-V = -40;
-guillemotright = -10;
-I = -6;
-exclam = -20;
-W = -20;
-J = -6;
-X = -30;
-exclamdown = -20;
-apostrophe = -37;
-Y = -50;
-germandbls = -25;
-guillemotleft = -20;
-Z = -20;
-hyphen = -20;
-M = -5;
-parenright = -30;
-question = -15;
-s = -10;
-t = -20;
-u = -5;
-ampersand = -9;
-questiondown = -15;
-backslash = -20;
-bullet = -10;
-bracketright = -20;
-S = -20;
-periodcentered = -10;
-T = -60;
-};
-germandbls = {
-asterisk = -11;
-quotesingle = -10;
+AE = -46;
+Icircumflex = 42;
+O = -20;
+Q = -10;
+T = 60;
+V = 60;
+W = 55;
+Y = 60;
+eth = -31;
+four = -50;
+n = -40;
+o = -60;
+s = -60;
+seven = 30;
+six = -30;
 t = -25;
-quoteright = -14;
-x = -10;
-quoteleft = -10;
-f = -15;
+u = -50;
+x = -50;
+z = -45;
+zero = -20;
 };
-plus = {
-one = -10;
-two = -29;
-three = -19;
-seven = -38;
-};
-f = {
-registered = -10;
-z = -25;
-bracketright = 20;
-apostrophe = -18;
-ampersand = -20;
-i = -10;
-guilsinglleft = -24;
-exclam = -20;
-eth = -11;
-period = -70;
-S = -20;
-guillemotleft = -50;
-T = -45;
-quotesinglbase = -50;
-questiondown = -40;
-braceright = 50;
-V = 30;
-bullet = -50;
-n = -30;
-W = 35;
-o = -35;
-periodcentered = -50;
-X = 5;
-slash = -20;
-A = -21;
-comma = -80;
-Z = -20;
-guillemotright = -20;
-quotesingle = 20;
-s = -40;
-t = -45;
-germandbls = -30;
-exclamdown = -20;
-backslash = 45;
-u = -35;
-question = 20;
-hyphen = -40;
-I = -10;
-x = -30;
-quoteleft = 20;
+t = {
+A = 5;
+Q = -5;
+S = -10;
+T = -65;
+V = -30;
+W = -15;
+Y = -40;
+apostrophe = -27;
+asterisk = -20;
+braceright = -5;
+bracketright = -10;
+bullet = -40;
+exclam = -30;
+exclamdown = -30;
+germandbls = -10;
+guillemotleft = -45;
+guilsinglleft = -26;
+hyphen = -50;
+o = -30;
+periodcentered = -40;
+question = -10;
+quoteright = -20;
+registered = -30;
+s = -10;
+u = -10;
+x = 10;
 };
 three = {
-backslash = -9;
+T = -18;
 V = -10;
+Y = -16;
+backslash = -9;
+braceright = -16;
 bracketright = -10;
 parenright = -18;
 slash = -10;
-braceright = -16;
-T = -18;
-Y = -16;
-};
-g = {
-quoteleft = -20;
-registered = -10;
-bracketright = -15;
-M = -6;
-f = 15;
-apostrophe = -38;
-O = -7;
-ampersand = -7;
-Q = -7;
-j = 45;
-S = -15;
-guillemotleft = -20;
-T = -70;
-U = -13;
-questiondown = -10;
-braceright = 20;
-V = -50;
-bullet = -30;
-n = -10;
-W = -40;
-o = -10;
-periodcentered = -30;
-X = -10;
-slash = 5;
-Y = -60;
-asterisk = -30;
-guillemotright = -10;
-quotesingle = -8;
-s = -15;
-quoteright = -20;
-t = -30;
-germandbls = 40;
-backslash = -60;
-question = -30;
-hyphen = -20;
-I = -9;
-J = 30;
-};
-parenright = {
-braceright = -9;
-};
-i = {
-U = -15;
-asterisk = -30;
-guillemotright = -20;
-V = -7;
-eth = -4;
-I = -8;
-W = -8;
-question = -10;
-guillemotleft = -20;
-J = -8;
-f = -4;
-apostrophe = -43;
-Y = -8;
-quoteright = -30;
-quotesingle = -8;
-hyphen = -15;
-t = -4;
-M = -5;
-O = -10;
-ampersand = -6;
-guilsinglleft = -8;
-Q = -10;
-quoteleft = -10;
-bullet = -40;
-periodcentered = -40;
-T = -13;
-};
-at = {
-quotesingle = -8;
-Z = -20;
-V = -30;
-A = -10;
-AE = -30;
-S = -20;
-X = -20;
-T = -70;
-Y = -30;
-};
-Thorn = {
-A = -14;
-X = -46;
-braceright = -22;
-Y = -17;
-period = -34;
-x = -10;
-Z = -31;
-quotesinglbase = -35;
-AE = -50;
-T = -45;
-comma = -35;
-bracketright = -25;
-parenright = -32;
-questiondown = -20;
-V = -8;
-backslash = -10;
-question = -20;
-slash = -20;
-};
-j = {
-U = -7;
-asterisk = -10;
-comma = -30;
-V = 15;
-guillemotright = -10;
-I = -7;
-exclam = -10;
-W = 10;
-J = -7;
-X = -10;
-exclamdown = -10;
-apostrophe = -35;
-guillemotleft = -10;
-period = -30;
-quoteright = -20;
-Z = -20;
-M = -7;
-O = -5;
-ampersand = -6;
-Q = -5;
-bullet = -20;
-S = -30;
-periodcentered = -20;
-T = -10;
-};
-quoteleft = {
-A = -90;
-X = -30;
-o = -30;
-Y = 40;
-period = -115;
-i = -10;
-x = -20;
-j = -20;
-z = -10;
-AE = -80;
-T = 20;
-comma = -112;
-germandbls = -11;
-questiondown = -150;
-s = -20;
-V = 50;
-eth = -33;
-u = -10;
-W = 50;
-};
-k = {
-quoteleft = -20;
-registered = -20;
-z = -10;
-bracketright = -20;
-M = -6;
-apostrophe = -40;
-O = -6;
-ampersand = -12;
-Q = -6;
-guilsinglleft = -10;
-exclam = -60;
-j = 10;
-period = -20;
-S = -40;
-guillemotleft = -40;
-T = -80;
-l = -30;
-U = -12;
-bullet = -20;
-V = -40;
-n = -25;
-W = -30;
-o = -25;
-periodcentered = -20;
-X = -10;
-slash = 45;
-Y = -50;
-asterisk = -30;
-comma = 40;
-Z = -20;
-guillemotright = -20;
-quotesingle = -9;
-s = -15;
-t = -35;
-germandbls = 15;
-exclamdown = -60;
-backslash = -22;
-semicolon = 10;
-u = -20;
-question = -30;
-hyphen = -10;
-I = -8;
-J = -8;
-};
-l = {
-asterisk = -50;
-U = -18;
-V = -15;
-quoteright = -30;
-W = -15;
-guillemotleft = -13;
-f = -10;
-apostrophe = -49;
-Y = -17;
-quotesingle = -20;
-t = -25;
-hyphen = -45;
-registered = -30;
-O = -12;
-guilsinglleft = -13;
-Q = -12;
-quoteleft = -20;
-bullet = -40;
-n = -20;
-o = -15;
-periodcentered = -40;
-T = -22;
-};
-comma = {
-U = -40;
-V = -140;
-quoteright = -150;
-W = -90;
-f = -20;
-quotesingle = -96;
-Y = -140;
-t = -80;
-u = -40;
-h = -30;
-i = -40;
-j = -20;
-one = -30;
-O = -40;
-l = -40;
-Q = -40;
-seven = -30;
-quoteleft = -150;
-n = -30;
-S = -10;
-o = -40;
-T = -100;
-};
-n = {
-asterisk = -20;
-question = -10;
-V = -35;
-quoteright = -25;
-I = -8;
-W = -20;
-X = -10;
-apostrophe = -43;
-Y = -50;
-quotesingle = -16;
-t = -20;
-Z = -10;
-M = -7;
-ampersand = -5;
-questiondown = -10;
-Q = -5;
-quoteleft = -25;
-backslash = -29;
-S = -10;
-T = -60;
-};
-o = {
-U = -8;
-asterisk = -20;
-comma = -10;
-V = -40;
-question = -10;
-quoteright = -17;
-W = -20;
-J = -8;
-X = -20;
-period = -25;
-apostrophe = -46;
-Y = -50;
-quotesingle = -19;
-t = -10;
-Z = -15;
-M = -7;
-A = -6;
-x = -25;
-questiondown = -10;
-z = -10;
-quoteleft = -19;
-backslash = -30;
-S = -25;
-T = -55;
-};
-fraction = {
-six = -11;
-four = -25;
-seven = 12;
-zero = -10;
-};
-braceleft = {
-b = -40;
-z = -40;
-M = -10;
-O = -10;
-h = -40;
-four = -18;
-Icircumflex = 47;
-i = -40;
-Q = -30;
-eth = -24;
-j = 10;
-S = -10;
-T = 10;
-l = -40;
-eight = -15;
-V = 21;
-n = -50;
-W = 15;
-o = -50;
-one = -13;
-A = -50;
-Y = 20;
-s = -60;
-six = -21;
-t = -60;
-germandbls = 53;
-u = -60;
-parenleft = -9;
-zero = -20;
-x = -40;
-AE = -50;
-I = -20;
-J = 10;
-};
-q = {
-U = -10;
-question = -30;
-V = -40;
-quoteright = -10;
-I = -8;
-W = -25;
-J = -5;
-X = -25;
-apostrophe = -36;
-Y = -50;
-Z = -30;
-M = -7;
-j = 15;
-ampersand = -5;
-questiondown = -30;
-Q = -5;
-backslash = -23;
-bracketright = -10;
-S = -40;
-T = -80;
-};
-r = {
-registered = -20;
-bracketright = -25;
-M = -8;
-apostrophe = -18;
-f = 15;
-ampersand = -29;
-guilsinglleft = -33;
-exclam = -20;
-eth = -11;
-period = -120;
-S = -35;
-guillemotleft = -50;
-T = -90;
-quotesinglbase = -43;
-questiondown = -40;
-braceright = -20;
-V = -20;
-bullet = -30;
-W = -15;
-o = -30;
-periodcentered = -30;
-X = -50;
-slash = -60;
-A = -38;
-Y = -45;
-asterisk = 10;
-comma = -110;
-Z = -45;
-t = 10;
-parenright = -50;
-exclamdown = -20;
-question = -40;
-hyphen = -10;
-I = -5;
-x = -10;
-J = -5;
-};
-s = {
-quoteleft = -25;
-registered = -10;
-z = -10;
-bracketright = -25;
-M = -5;
-apostrophe = -33;
-f = -15;
-Q = -5;
-exclam = -20;
-period = -10;
-S = -20;
-guillemotleft = -20;
-T = -80;
-U = -8;
-questiondown = -15;
-braceright = -20;
-V = -55;
-bullet = -30;
-W = -40;
-o = -20;
-periodcentered = -30;
-X = -20;
-Y = -50;
-asterisk = -30;
-Z = -5;
-quoteright = -30;
-t = -20;
-parenright = -30;
-exclamdown = -20;
-backslash = -17;
-question = -15;
-hyphen = -40;
-I = -6;
-J = -6;
-};
-nine = {
-A = -8;
-X = -14;
-braceright = -20;
-Y = -22;
-Z = -13;
-T = -28;
-seven = -9;
-bracketright = -16;
-parenright = -26;
-V = -10;
-backslash = -10;
-fraction = -15;
-slash = -20;
-};
-seven = {
-A = -34;
-slash = -80;
-Y = 7;
-period = -130;
-four = -60;
-semicolon = -30;
-six = -30;
-comma = -130;
-bracketright = 12;
-plus = -13;
-five = -40;
-V = 16;
-colon = -80;
-hyphen = -60;
-W = 9;
-cent = -14;
-fraction = -44;
-};
-t = {
-asterisk = -20;
-question = -10;
-V = -30;
-quoteright = -20;
-exclam = -30;
-W = -15;
-guillemotleft = -45;
-s = -10;
-exclamdown = -30;
-apostrophe = -27;
-Y = -40;
-germandbls = -10;
-u = -10;
-hyphen = -50;
-registered = -30;
-A = 5;
-x = 10;
-guilsinglleft = -26;
-Q = -5;
-braceright = -5;
-bracketright = -10;
-S = -10;
-bullet = -40;
-o = -30;
-T = -65;
-periodcentered = -40;
 };
 two = {
 A = 5;
@@ -25732,213 +25629,202 @@ T = -11;
 Y = -9;
 };
 u = {
-U = -14;
-asterisk = -15;
-question = -20;
-V = -40;
-parenright = -30;
-quoteright = -30;
-exclam = -10;
-W = -20;
 J = -8;
+M = -6;
+Q = -8;
+S = -20;
+T = -75;
+U = -14;
+V = -40;
+W = -20;
 X = -10;
-exclamdown = -10;
-apostrophe = -39;
 Y = -55;
+ampersand = -6;
+apostrophe = -39;
+asterisk = -15;
+backslash = -25;
+braceright = -20;
+bracketright = -25;
+bullet = -20;
+exclam = -10;
+exclamdown = -10;
 f = -15;
 germandbls = -10;
 guillemotleft = -30;
 hyphen = -20;
-M = -6;
+parenright = -30;
+periodcentered = -20;
+question = -20;
+questiondown = -20;
+quoteleft = -20;
+quoteright = -30;
 quotesingle = -8;
 registered = -10;
-ampersand = -6;
-questiondown = -20;
-Q = -8;
-quoteleft = -20;
-backslash = -25;
-braceright = -20;
-bracketright = -25;
-S = -20;
-bullet = -20;
-periodcentered = -20;
-T = -75;
-};
-equal = {
-seven = -24;
 };
 v = {
-asterisk = -10;
-comma = -40;
-question = -25;
-V = -30;
-parenright = -20;
-exclam = -20;
-W = -10;
-J = -8;
-X = -30;
-exclamdown = -20;
-apostrophe = -31;
-Y = -35;
-germandbls = -20;
-period = -40;
-Z = -20;
 A = -12;
-quotesinglbase = -11;
-ampersand = -7;
-questiondown = -35;
-slash = -10;
-backslash = -14;
-bracketright = -30;
+J = -8;
 S = -30;
 T = -65;
+V = -30;
+W = -10;
+X = -30;
+Y = -35;
+Z = -20;
+ampersand = -7;
+apostrophe = -31;
+asterisk = -10;
+backslash = -14;
+bracketright = -30;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -20;
+parenright = -20;
+period = -40;
+question = -25;
+questiondown = -35;
+quotesinglbase = -11;
+slash = -10;
 };
 w = {
-asterisk = -10;
-comma = -40;
-question = -25;
-V = -30;
-parenright = -20;
-exclam = -20;
-W = -10;
-J = -8;
-X = -30;
-exclamdown = -20;
-apostrophe = -31;
-Y = -35;
-germandbls = -20;
-period = -40;
-Z = -20;
 A = -12;
-quotesinglbase = -11;
-ampersand = -7;
-questiondown = -35;
-slash = -10;
-backslash = -14;
-bracketright = -30;
+J = -8;
 S = -30;
 T = -65;
-};
-ampersand = {
-Q = -6;
-f = -18;
-V = -45;
-quoteright = -35;
-quotesingle = -37;
-W = -29;
-t = -19;
-T = -45;
-n = -5;
-Y = -45;
-U = -7;
-};
-eight = {
-backslash = -9;
-V = -8;
-bracketright = -11;
-parenright = -18;
-braceright = -15;
-T = -19;
-Y = -15;
+V = -30;
+W = -10;
+X = -30;
+Y = -35;
+Z = -20;
+ampersand = -7;
+apostrophe = -31;
+asterisk = -10;
+backslash = -14;
+bracketright = -30;
+comma = -40;
+exclam = -20;
+exclamdown = -20;
+germandbls = -20;
+parenright = -20;
+period = -40;
+question = -25;
+questiondown = -35;
+quotesinglbase = -11;
+slash = -10;
 };
 x = {
-U = -10;
-question = -10;
-guillemotright = -20;
-V = -50;
-eth = -12;
-quoteright = -20;
-W = -20;
-guillemotleft = -50;
-X = 10;
-period = -10;
-apostrophe = -27;
-Y = -55;
-u = -10;
-Z = -10;
-hyphen = -40;
-registered = -40;
 O = -11;
-ampersand = -13;
-questiondown = -10;
 Q = -11;
-bullet = -40;
-bracketright = -20;
 S = -25;
-o = -25;
 T = -90;
+U = -10;
+V = -50;
+W = -20;
+X = 10;
+Y = -55;
+Z = -10;
+ampersand = -13;
+apostrophe = -27;
+bracketright = -20;
+bullet = -40;
+eth = -12;
+guillemotleft = -50;
+guillemotright = -20;
+hyphen = -40;
+o = -25;
+period = -10;
 periodcentered = -40;
+question = -10;
+questiondown = -10;
+quoteright = -20;
+registered = -40;
+u = -10;
 };
 y = {
-bracketright = -20;
-M = -6;
-f = 20;
-apostrophe = -36;
-O = -7;
-ampersand = -6;
-Q = -7;
-j = 35;
-S = -20;
-guillemotleft = -20;
-T = -75;
-U = -13;
-questiondown = -15;
-braceright = -15;
-V = -45;
-bullet = -10;
-n = -10;
-W = -20;
-o = -15;
-periodcentered = -10;
-X = -10;
-Y = -50;
-asterisk = -30;
-Z = -20;
-quoteright = -20;
-t = -30;
-parenright = -15;
-germandbls = 30;
-backslash = -23;
-u = -10;
-question = -15;
 I = -9;
 J = 25;
+M = -6;
+O = -7;
+Q = -7;
+S = -20;
+T = -75;
+U = -13;
+V = -45;
+W = -20;
+X = -10;
+Y = -50;
+Z = -20;
+ampersand = -6;
+apostrophe = -36;
+asterisk = -30;
+backslash = -23;
+braceright = -15;
+bracketright = -20;
+bullet = -10;
+f = 20;
+germandbls = 30;
+guillemotleft = -20;
+j = 35;
+n = -10;
+o = -15;
+parenright = -15;
+periodcentered = -10;
+question = -15;
+questiondown = -15;
+quoteright = -20;
+t = -30;
+u = -10;
 };
 z = {
-registered = -20;
-z = 30;
-bracketright = -25;
+A = 40;
+I = -6;
+J = -6;
 M = -5;
-apostrophe = -30;
 O = -7;
-ampersand = -8;
 Q = -7;
-guilsinglleft = -26;
-eth = -6;
-period = 20;
 S = 5;
-guillemotleft = -50;
 T = -60;
 U = -10;
-bullet = -40;
 V = -25;
 W = -15;
-o = -10;
-slash = 10;
 X = 20;
-periodcentered = -40;
-A = 40;
 Y = -30;
 Z = 10;
+ampersand = -8;
+apostrophe = -30;
+backslash = -11;
+bracketright = -25;
+bullet = -40;
+eth = -6;
+guillemotleft = -50;
+guilsinglleft = -26;
+hyphen = -60;
+o = -10;
+period = 20;
+periodcentered = -40;
+question = -11;
 quoteright = -10;
+registered = -20;
+slash = 10;
 t = -20;
 u = -20;
-backslash = -11;
-question = -11;
-hyphen = -60;
-I = -6;
 x = 35;
-J = -6;
+z = 30;
+};
+zero = {
+T = -27;
+V = -10;
+X = -12;
+Y = -21;
+Z = -12;
+backslash = -10;
+braceright = -19;
+bracketright = -15;
+fraction = -13;
+parenright = -25;
+seven = -55;
+slash = -10;
 };
 };
 };
