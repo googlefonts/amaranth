@@ -3,21 +3,53 @@
 copyright = "Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)";
 customParameters = (
 {
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+name = fsType;
+value = (
+);
 },
 {
-name = "Disable Last Change";
-value = 1;
+name = openTypeOS2StrikeoutPosition;
+value = 250;
+},
+{
+name = openTypeOS2StrikeoutSize;
+value = 50;
+},
+{
+name = openTypeOS2SubscriptXOffset;
+value = 0;
+},
+{
+name = openTypeOS2SubscriptXSize;
+value = 700;
+},
+{
+name = openTypeOS2SubscriptYOffset;
+value = 140;
+},
+{
+name = openTypeOS2SubscriptYSize;
+value = 650;
+},
+{
+name = openTypeOS2SuperscriptXOffset;
+value = 0;
+},
+{
+name = openTypeOS2SuperscriptXSize;
+value = 700;
+},
+{
+name = openTypeOS2SuperscriptYOffset;
+value = 477;
+},
+{
+name = openTypeOS2SuperscriptYSize;
+value = 650;
 },
 {
 name = trademark;
 value = "Amaranth Regular is a trademark of Gesine Todt.";
-},
-{
-name = fsType;
-value = (
-);
 },
 {
 name = "Use Typo Metrics";
@@ -26,6 +58,14 @@ value = 1;
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = "Disable Last Change";
+value = 1;
 },
 {
 name = "Use Line Breaks";
